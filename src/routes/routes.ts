@@ -1,8 +1,8 @@
 export const ROUTES = {
     ROOT: "*",
     HOME: "/",
-    PRODUCT: "/products",
-    PRODUCT_DETAIL: "/product-detail",
+    MENU: "/menu",
+    MENU_DETAIL: "/menu-detail",
     ABOUT: "/about",
     CART: "/cart",
 }

@@ -5,7 +5,7 @@ import { IoCloseOutline, IoReorderThreeOutline } from "react-icons/io5"
 
 const menus = [
   { name: "Home", href: ROUTES.HOME },
-  { name: "Product", href: ROUTES.PRODUCT },
+  { name: "Menu", href: ROUTES.MENU },
   { name: "About", href: ROUTES.ABOUT },
 ]
 
@@ -15,7 +15,7 @@ const Navbar = () => {
   const location = useLocation()
   return (
     <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white shadow-sm">
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex h-16 items-center justify-between">
           <button
             onClick={() => navigate(ROUTES.HOME)}
