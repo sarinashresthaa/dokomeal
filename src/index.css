@@ -3,6 +3,10 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/inter";
 
+*{
+  font-family: "Poppins", sans-serif;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
