@@ -1,0 +1,346 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Momo",
+      "slug": "momo",
+      "icon": "🥟",
+      "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+      "items": [
+        {
+          "id": 101,
+          "name": "Chicken Momo",
+          "price": 150,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Soft steamed dumplings filled with juicy minced chicken, onions, and herbs. Served with homemade spicy tomato sesame achar.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 102,
+          "name": "Buff Momo",
+          "price": 140,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Traditional Nepali buff momos made with seasoned buffalo meat and served with spicy dipping sauce.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 103,
+          "name": "Veg Momo",
+          "price": 120,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Steamed dumplings stuffed with fresh mixed vegetables and flavorful herbs.",
+          "isVeg": true,
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fried Rice",
+      "slug": "fried-rice",
+      "icon": "🍚",
+      "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg",
+      "items": [
+        {
+          "id": 201,
+          "name": "Veg Fried Rice",
+          "price": 140,
+          "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg",
+          "description": "Stir-fried rice with fresh vegetables, soy sauce, and aromatic spices.",
+          "isVeg": true,
+          "isPopular": false
+        },
+        {
+          "id": 202,
+          "name": "Chicken Fried Rice",
+          "price": 160,
+          "image": "https://pupswithchopsticks.com/wp-content/uploads/chicken-fried-rice-done-1.jpg",
+          "description": "Classic fried rice tossed with tender chicken pieces, vegetables, and savory sauces.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 203,
+          "name": "Mix Fried Rice",
+          "price": 200,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReULxyEKCJIPfXbaNqDtJWb4STIcQoSWsI81Mm1oCWCEDow3M6SjLpQxZ2&s=10",
+          "description": "A delicious combination of chicken, vegetables, eggs, and aromatic fried rice.",
+          "isVeg": false,
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Chowmein",
+      "slug": "chowmein",
+      "icon": "🍜",
+      "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+      "items": [
+        {
+          "id": 301,
+          "name": "Veg Chowmein",
+          "price": 120,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Stir-fried noodles with fresh vegetables, soy sauce, and flavorful seasonings.",
+          "isVeg": true,
+          "isPopular": false
+        },
+        {
+          "id": 302,
+          "name": "Egg Chowmein",
+          "price": 140,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Delicious stir-fried noodles mixed with scrambled eggs and vegetables.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 303,
+          "name": "Chicken Chowmein",
+          "price": 160,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Wok-tossed noodles with juicy chicken, fresh vegetables, and savory sauce.",
+          "isVeg": false,
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chicken Items",
+      "slug": "chicken-items",
+      "icon": "🍗",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdiEfbQjmwtMFhnoA9tn23e7K3iOUiIvK8StETd8w8zyUzGzwCCmIYI6Q&s=10",
+      "items": [
+        {
+          "id": 401,
+          "name": "Chicken Wings (1 pc)",
+          "price": 70,
+          "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
+          "description": "Crispy fried chicken wings seasoned with flavorful spices.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 402,
+          "name": "Chicken Drumstick (1 pc)",
+          "price": 70,
+          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "description": "Golden fried drumstick with juicy meat inside.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 403,
+          "name": "Chicken Lollipop (1 pc)",
+          "price": 70,
+          "image": "https://static.toiimg.com/photo/53222175.cms",
+          "description": "Crispy chicken lollipop served with spicy dipping sauce.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 404,
+          "name": "Chilli Chicken",
+          "price": 160,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Spicy and tangy chicken tossed with onions, capsicum, and house-made chilli sauce.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 405,
+          "name": "Chicken Roast",
+          "price": 160,
+          "image": "https://static.toiimg.com/photo/53222175.cms",
+          "description": "Tender roasted chicken marinated with aromatic herbs and spices.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 406,
+          "name": "Chicken Choila",
+          "price": 160,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Authentic Nepali-style spicy grilled chicken mixed with mustard oil and herbs.",
+          "isVeg": false,
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Snacks",
+      "slug": "snacks",
+      "icon": "🍟",
+      "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
+      "items": [
+        {
+          "id": 501,
+          "name": "French Fries",
+          "price": 120,
+          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+          "description": "Golden crispy fries lightly salted and served hot.",
+          "isVeg": true,
+          "isPopular": true
+        },
+        {
+          "id": 502,
+          "name": "Mustang Aalu",
+          "price": 130,
+          "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
+          "description": "Spicy Nepali-style potato snack tossed with local herbs and spices.",
+          "isVeg": true,
+          "isPopular": false
+        },
+        {
+          "id": 503,
+          "name": "Chips Chilli",
+          "price": 130,
+          "image": "https://khinskitchen.com/wp-content/uploads/2021/09/salt-and-chilli-chips-with-masala-2.jpg",
+          "description": "Crunchy chips stir-fried with vegetables and spicy chilli sauce.",
+          "isVeg": true,
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Burger",
+      "slug": "burger",
+      "icon": "🍔",
+      "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
+      "items": [
+        {
+          "id": 601,
+          "name": "Chicken Burger",
+          "price": 150,
+          "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
+          "description": "Juicy chicken patty layered with lettuce, tomato, cheese, and signature sauce.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 602,
+          "name": "Veg Burger",
+          "price": 130,
+          "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
+          "description": "Crispy vegetable patty with fresh lettuce and creamy sauce.",
+          "isVeg": true,
+          "isPopular": false
+        },
+        {
+          "id": 603,
+          "name": "Egg Burger",
+          "price": 140,
+          "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
+          "description": "Soft bun filled with fried egg, fresh vegetables, and special sauce.",
+          "isVeg": false,
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sandwich",
+      "slug": "sandwich",
+      "icon": "🥪",
+      "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
+      "items": [
+        {
+          "id": 701,
+          "name": "Veg Sandwich",
+          "price": 120,
+          "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
+          "description": "Grilled sandwich filled with fresh vegetables and cheese.",
+          "isVeg": true,
+          "isPopular": false
+        },
+        {
+          "id": 702,
+          "name": "Chicken Sandwich",
+          "price": 140,
+          "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
+          "description": "Toasted sandwich stuffed with seasoned chicken and fresh vegetables.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 703,
+          "name": "Egg Sandwich",
+          "price": 130,
+          "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
+          "description": "Freshly toasted sandwich filled with egg, lettuce, and creamy dressing.",
+          "isVeg": false,
+          "isPopular": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sausage",
+      "slug": "sausage",
+      "icon": "🌭",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
+      "items": [
+        {
+          "id": 801,
+          "name": "Chicken Sausage (1 pc)",
+          "price": 60,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
+          "description": "Juicy grilled chicken sausage served hot.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 802,
+          "name": "Buff Sausage (1 pc)",
+          "price": 60,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
+          "description": "Grilled buffalo sausage with rich smoky flavor.",
+          "isVeg": false,
+          "isPopular": false
+        },
+        {
+          "id": 803,
+          "name": "Sausage Chilli",
+          "price": 160,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
+          "description": "Spicy sausage tossed with onions, capsicum, and chilli sauce.",
+          "isVeg": false,
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Current Noodles",
+      "slug": "current-noodles",
+      "icon": "🍜",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
+      "items": [
+        {
+          "id": 901,
+          "name": "Current Noodles with Cheese & Chicken",
+          "price": 150,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
+          "description": "Instant noodles upgraded with melted cheese, juicy chicken, and flavorful seasoning.",
+          "isVeg": false,
+          "isPopular": true
+        },
+        {
+          "id": 902,
+          "name": "Veg Current Noodles",
+          "price": 100,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
+          "description": "Quick and delicious instant noodles cooked with fresh vegetables.",
+          "isVeg": true,
+          "isPopular": false
+        }
+      ]
+    }
+  ]
+}
