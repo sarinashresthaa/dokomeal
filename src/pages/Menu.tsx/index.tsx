@@ -3,14 +3,19 @@ import menuData from "@/data/menu.json"
 import { useState } from "react"
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState(0)
+  const [selectedCategory, setSelectedCategory] = useState(0);
+  const [search, setSearch] = useState("");
 
-  const filteredItems =
+  const categoryItems =
     selectedCategory === 0
       ? menuData.categories.flatMap((category) => category.items)
       : (menuData.categories.find(
           (category) => category.id === selectedCategory
         )?.items ?? [])
+
+  const filteredItems = categoryItems.filter((item) =>
+  item.name.toLowerCase().includes(search.toLowerCase())
+);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -29,6 +34,8 @@ const Menu = () => {
         <input
           type="text"
           placeholder="Search for a dish..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
           className="w-full rounded-2xl border border-gray-200 bg-gray-50 py-3.5 pr-4 pl-11 text-sm font-medium placeholder-gray-400 transition-all focus:border-transparent focus:ring-2 focus:ring-[#FF7A00] focus:outline-none"
         />
       </div>

@@ -24,7 +24,7 @@ const MenuCardUI = ({ item }: MenuCardProps) => {
           >
             <span
               className={`h-2 w-2 rounded-full ${item.isVeg ? "bg-green-700" : "bg-red-500"}`}
-            ></span>{" "}
+            ></span>
             {item.isVeg ? "Veg" : "Non-Veg"}
           </span>
         </div>
@@ -32,10 +32,10 @@ const MenuCardUI = ({ item }: MenuCardProps) => {
       <div className="p-4">
         <div className="cursor-pointer">
           <h3 className="mb-1 text-base leading-tight font-bold text-gray-900">
-            {item.name}{" "}
+            {item.name}
           </h3>
           <p className="mb-3 line-clamp-2 text-xs leading-relaxed text-gray-500">
-            {item.description}{" "}
+            {item.description}
           </p>
         </div>
         <div className="mt-3 flex items-center justify-between">
