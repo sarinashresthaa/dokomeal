@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {open && (
           <div
-            className="md:hiden flex flex-col gap-1 pb-4"
+            className="md:hiden flex flex-col gap-1 pb-4 absolute z-100 w-full bg-white left-0"
             onClick={() => setOpen(false)}
           >
             {menus?.map((item, index) => (
