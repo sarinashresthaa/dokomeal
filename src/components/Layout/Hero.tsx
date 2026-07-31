@@ -1,10 +1,10 @@
-import heroImg from "@/assets/Container.png"
+import heroImg from "@/assets/momo.jpg"
 import { ROUTES } from "@/routes/routes"
 import { Link } from "react-router-dom"
 
 const Hero = () => {
   return (
-    <section className="mx-auto flex max-w-6xl flex-col-reverse items-center justify-between gap-8 px-4 py-12 sm:px-6 md:flex-row">
+    <section className="mx-auto flex max-w-6xl flex-col-reverse items-center justify-between gap-8 px-4 sm:px-6 md:flex-row md:py-6">
       <div className="flex-1 text-center md:text-left">
         <h1 className="mb-4 text-4xl font-black sm:text-5xl">
           <div>Fresh Food,</div>
@@ -24,11 +24,11 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className="mx-auto w-full max-w-xs flex-1 sm:max-w-sm md:max-w-none">
+      <div className="relative mx-auto w-full max-w-xs sm:max-w-sm md:max-w-md md:-translate-y-10">
         <img
           src={heroImg}
-          alt="Freshly prepared delicious food"
-          className="h-auto w-full object-cover"
+          alt="Freshly prepared momos"
+          className="h-auto w-full object-contain"
         />
       </div>
     </section>
