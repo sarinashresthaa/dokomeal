@@ -1,6 +1,8 @@
 import FeatureGrid from "@/components/FeatureGrid"
 import Hero from "@/components/Layout/Hero"
 import menuData from "@/data/menu.json"
+import { ROUTES } from "@/routes/routes"
+import { useNavigate } from "react-router-dom"
 
 const Home = () => {
   const featureItem = [
@@ -26,6 +28,8 @@ const Home = () => {
     },
   ]
 
+  const navigate=useNavigate()
+
   return (
     <div>
       <Hero />
@@ -43,6 +47,7 @@ const Home = () => {
             <button
               key={item.id}
               className="group flex flex-col items-center gap-3 rounded-2xl border border-gray-100 bg-white p-5 transition-all hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50 hover:shadow-md"
+            onClick={()=> navigate(`${ROUTES.MENU}?cat=${item.id}`)}
             >
               <span className="text-3xl transition-transform group-hover:scale-110">
                 {item.icon}
