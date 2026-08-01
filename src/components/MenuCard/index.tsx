@@ -15,7 +15,7 @@ const MenuCardUI = ({ item }: MenuCardProps) => {
       <div className="relative h-48 cursor-pointer overflow-hidden bg-orange-500">
         <img
           src={item.image}
-          alt={item.image}
+          alt={item.name}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute top-3 left-3">
