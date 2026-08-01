@@ -87,9 +87,9 @@ const About = () => {
               className="h-52 w-full rounded-2xl object-cover"
             />
             <img
-              src="https://images.unsplash.com/photo-1574966739987-65fbe48a0802?w=400&h=300&fit=crop&auto=format"
+              src="https://media.istockphoto.com/id/870915532/photo/man-holding-crate-ob-fresh-vegetables.webp?a=1&b=1&s=612x612&w=0&k=20&c=81L1ajLwOeD8uGEVoyXnAFAKWpkNLZsH9JJyntaMfGo="
               alt="Fresh ingredients"
-              className="mt-8 h-52 w-full rounded-2xl object-cover"
+              className="h-52 w-full rounded-2xl object-cover"
             />
           </div>
         </div>
