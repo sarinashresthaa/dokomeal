@@ -1,8 +1,8 @@
 import Layout from "@/components/Layout"
 import About from "@/pages/About"
-import Cart from "@/pages/Cart.tsx"
+import Cart from "@/pages/Cart"
 import Home from "@/pages/Home"
-import Menu from "@/pages/Menu.tsx"
+import Menu from "@/pages/Menu"
 import { useRoutes } from "react-router-dom"
 import { ROUTES } from "./routes"
 

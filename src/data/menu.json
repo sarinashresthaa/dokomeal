@@ -14,7 +14,7 @@
           "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
           "description": "Soft steamed dumplings filled with juicy minced chicken, onions, and herbs. Served with homemade spicy tomato sesame achar.",
           "isVeg": false,
-          "isPopular": true
+          "isPopular": false
         },
         {
           "id": 102,
@@ -59,7 +59,7 @@
           "image": "https://pupswithchopsticks.com/wp-content/uploads/chicken-fried-rice-done-1.jpg",
           "description": "Classic fried rice tossed with tender chicken pieces, vegetables, and savory sauces.",
           "isVeg": false,
-          "isPopular": true
+          "isPopular": false
         },
         {
           "id": 203,
@@ -86,7 +86,7 @@
           "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
           "description": "Stir-fried noodles with fresh vegetables, soy sauce, and flavorful seasonings.",
           "isVeg": true,
-          "isPopular": false
+          "isPopular": true
         },
         {
           "id": 302,
@@ -104,7 +104,7 @@
           "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
           "description": "Wok-tossed noodles with juicy chicken, fresh vegetables, and savory sauce.",
           "isVeg": false,
-          "isPopular": true
+          "isPopular": false
         }
       ]
     },
@@ -122,7 +122,7 @@
           "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
           "description": "Crispy fried chicken wings seasoned with flavorful spices.",
           "isVeg": false,
-          "isPopular": false
+          "isPopular": true
         },
         {
           "id": 402,
@@ -167,7 +167,7 @@
           "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
           "description": "Authentic Nepali-style spicy grilled chicken mixed with mustard oil and herbs.",
           "isVeg": false,
-          "isPopular": true
+          "isPopular": false
         }
       ]
     },
@@ -203,7 +203,7 @@
           "image": "https://khinskitchen.com/wp-content/uploads/2021/09/salt-and-chilli-chips-with-masala-2.jpg",
           "description": "Crunchy chips stir-fried with vegetables and spicy chilli sauce.",
           "isVeg": true,
-          "isPopular": false
+          "isPopular": true
         }
       ]
     },
@@ -257,7 +257,7 @@
           "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
           "description": "Grilled sandwich filled with fresh vegetables and cheese.",
           "isVeg": true,
-          "isPopular": false
+          "isPopular": true
         },
         {
           "id": 702,
@@ -266,7 +266,7 @@
           "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
           "description": "Toasted sandwich stuffed with seasoned chicken and fresh vegetables.",
           "isVeg": false,
-          "isPopular": true
+          "isPopular": false
         },
         {
           "id": 703,
@@ -302,7 +302,7 @@
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
           "description": "Grilled buffalo sausage with rich smoky flavor.",
           "isVeg": false,
-          "isPopular": false
+          "isPopular": true
         },
         {
           "id": 803,

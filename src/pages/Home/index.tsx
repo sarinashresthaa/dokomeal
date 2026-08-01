@@ -1,5 +1,6 @@
 import FeatureGrid from "@/components/FeatureGrid"
 import Hero from "@/components/Layout/Hero"
+import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { ROUTES } from "@/routes/routes"
 import { useNavigate } from "react-router-dom"
@@ -27,8 +28,11 @@ const Home = () => {
       description: "Premium quality without breaking the bank.",
     },
   ]
+  const popularItem = menuData.categories
+    .flatMap((popular) => popular.items)
+    .filter((popular) => popular.isPopular)
 
-  const navigate=useNavigate()
+  const navigate = useNavigate()
 
   return (
     <div>
@@ -47,7 +51,7 @@ const Home = () => {
             <button
               key={item.id}
               className="group flex flex-col items-center gap-3 rounded-2xl border border-gray-100 bg-white p-5 transition-all hover:-translate-y-1 hover:border-orange-200 hover:bg-orange-50 hover:shadow-md"
-            onClick={()=> navigate(`${ROUTES.MENU}?cat=${item.id}`)}
+              onClick={() => navigate(`${ROUTES.MENU}?cat=${item.id}`)}
             >
               <span className="text-3xl transition-transform group-hover:scale-110">
                 {item.icon}
@@ -60,7 +64,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-gray-300 py-16">
+      <div className="bg-gray-50 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-10 flex items-end justify-between">
             <div>
@@ -69,9 +73,15 @@ const Home = () => {
               </h2>
               <p className="text-gray-500">Crowd favourites you'll love</p>
             </div>
-            <button className="text-sm font-bold text-[#FF7A00] hover:underline">
+            <button className="text-sm font-bold text-[#FF7A00] hover:underline cursor-pointer"
+            onClick={() => navigate(ROUTES.MENU)}>
               View All →
             </button>
+          </div>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {popularItem.map((item) => (
+              <MenuCardUI key={item.id} item={item} />
+            ))}
           </div>
         </div>
       </div>
@@ -97,15 +107,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-4 sm:mx-6 mb-16 max-w-6xl lg:mx-auto ">
+      <div className="mx-4 mb-16 max-w-6xl sm:mx-6 lg:mx-auto">
         <div className="relative flex flex-col items-center justify-between gap-6 overflow-hidden rounded-3xl bg-[#FF7A00] p-8 sm:p-12 md:flex-row">
           <div className="bg-opacity-10 absolute -top-10 -right-10 h-48 w-48 rounded-full bg-white"></div>
           <div className="bg-opacity-10 absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-white"></div>
           <div className="relative">
-            <h2 className=" mb-2 text-2xl font-black text-white sm:text-3xl">
+            <h2 className="mb-2 text-2xl font-black text-white sm:text-3xl">
               Hungry? Order Now!
             </h2>
-            <p className="text-sm text-orange-100 text-center">
+            <p className="text-center text-sm text-orange-100 md:pl-3">
               Free delivery on orders above Rs. 500
             </p>
           </div>
