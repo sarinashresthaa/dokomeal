@@ -3,7 +3,7 @@ import Hero from "@/components/Layout/Hero"
 import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { ROUTES } from "@/routes/routes"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Home = () => {
   const featureItem = [
@@ -80,7 +80,9 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {popularItem.map((item) => (
+              <Link to={`/${item.name}/${item.id}`}>
               <MenuCardUI key={item.id} item={item} />
+              </Link>
             ))}
           </div>
         </div>

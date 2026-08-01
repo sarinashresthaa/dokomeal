@@ -1,21 +1,19 @@
 import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { useEffect, useState } from "react"
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom"
 
 const Menu = () => {
-  const [selectedCategory, setSelectedCategory] = useState(0);
-  const [search, setSearch] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState(0)
+  const [search, setSearch] = useState("")
 
-  const [searchParams, setSearchParams]=useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
 
-
-  useEffect(()=>{
-    const cat=searchParams.get('cat')
+  useEffect(() => {
+    const cat = searchParams.get("cat")
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setSelectedCategory(+(cat??'0'))
-  },[searchParams])
-
+    setSelectedCategory(+(cat ?? "0"))
+  }, [searchParams])
 
   const categoryItems =
     selectedCategory === 0
@@ -25,8 +23,8 @@ const Menu = () => {
         )?.items ?? [])
 
   const filteredItems = categoryItems.filter((item) =>
-  item.name.toLowerCase().includes(search.toLowerCase())
-);
+    item.name.toLowerCase().includes(search.toLowerCase())
+  )
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
@@ -53,9 +51,9 @@ const Menu = () => {
       <div className="mb-8 no-scrollbar flex gap-2 overflow-x-auto pb-3">
         <button
           onClick={() => {
-            searchParams.delete('cat')
+            searchParams.delete("cat")
             setSearchParams(searchParams)
-            }}
+          }}
           className={`flex shrink-0 items-center rounded-full px-4 py-2 text-sm font-semibold transition-all ${selectedCategory === 0 ? "bg-[#FF7A00] text-white" : "bg-gray-100 text-gray-600 hover:bg-orange-50 hover:text-[#FF7A00]"} cursor-pointer`}
         >
           All
@@ -64,7 +62,7 @@ const Menu = () => {
           <button
             key={category.id}
             onClick={() => {
-              searchParams.set('cat', category.id?.toString()) 
+              searchParams.set("cat", category.id?.toString())
               setSearchParams(searchParams)
             }}
             className={`flex shrink-0 items-center rounded-full px-4 py-2 text-sm font-semibold transition-all ${selectedCategory === category.id ? "bg-[#FF7A00] text-white" : "bg-gray-100 text-gray-600 hover:bg-orange-50 hover:text-[#FF7A00]"} cursor-pointer`}
@@ -78,7 +76,9 @@ const Menu = () => {
       </p>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filteredItems.map((item) => (
-          <MenuCardUI key={item.id} item={item} />
+          <Link to={`/${item.name}/${item.id}`}>
+            <MenuCardUI key={item.id} item={item} />
+          </Link>
         ))}
       </div>
     </div>
