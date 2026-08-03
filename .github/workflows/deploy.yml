@@ -3,7 +3,7 @@ name: Deploy Dokomeal
 on:
   push:
     branches: [main]     # change if your default branch is different
-
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: self-hosted
