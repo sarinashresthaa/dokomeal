@@ -3,7 +3,7 @@ import Hero from "@/components/Layout/Hero"
 import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { ROUTES } from "@/routes/routes"
-import { Link, useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 const Home = () => {
   const featureItem = [
@@ -73,16 +73,16 @@ const Home = () => {
               </h2>
               <p className="text-gray-500">Crowd favourites you'll love</p>
             </div>
-            <button className="text-sm font-bold text-[#FF7A00] hover:underline cursor-pointer"
-            onClick={() => navigate(ROUTES.MENU)}>
+            <button
+              className="cursor-pointer text-sm font-bold text-[#FF7A00] hover:underline"
+              onClick={() => navigate(ROUTES.MENU)}
+            >
               View All →
             </button>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {popularItem.map((item) => (
-              <Link to={`/${item.name}/${item.id}`}>
               <MenuCardUI key={item.id} item={item} />
-              </Link>
             ))}
           </div>
         </div>
