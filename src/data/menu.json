@@ -10,49 +10,209 @@
         {
           "id": 101,
           "name": "Chicken Momo",
-          "price": 150,
+          "price": 200,
           "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
-          "description": "Soft steamed dumplings filled with juicy minced chicken, onions, and herbs. Served with homemade spicy tomato sesame achar.",
-          "isVeg": false,
-          "isPopular": false,
-          "prepTime": "20 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Minced chicken",
-            "Onion",
-            "Ginger-garlic paste",
-            "Coriander",
-            "Momo flour",
-            "Sesame achar"
-          ],
-          "rating": 4.6
-        },
-        {
-          "id": 102,
-          "name": "Buff Momo",
-          "price": 140,
-          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
-          "description": "Traditional Nepali buff momos made with seasoned buffalo meat and served with spicy dipping sauce.",
+          "description": "Soft steamed dumplings filled with juicy minced chicken and served with traditional spicy tomato sesame achar.",
           "isVeg": false,
           "isPopular": true,
           "prepTime": "20 min",
-          "spiceLevel": "Medium",
+          "spiceLevel": "Mild",
           "keyIngredients": [
-            "Minced buffalo meat",
+            "Chicken",
             "Onion",
             "Garlic",
             "Ginger",
-            "Momo flour",
-            "Timur"
+            "Momo wrapper",
+            "Sesame achar"
           ],
           "rating": 4.8
         },
         {
-          "id": 103,
-          "name": "Veg Momo",
-          "price": 120,
+          "id": 102,
+          "name": "Chicken C Momo",
+          "price": 270,
           "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
-          "description": "Steamed dumplings stuffed with fresh mixed vegetables and flavorful herbs.",
+          "description": "Steamed chicken momo tossed in spicy chilli sauce with onions and capsicum.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "22 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Chicken momo",
+            "Capsicum",
+            "Onion",
+            "Garlic",
+            "Chilli sauce",
+            "Soy sauce"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 103,
+          "name": "Chicken Kothey Momo",
+          "price": 250,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Pan-fried chicken momo with a crispy golden base and juicy filling.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "22 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Momo wrapper",
+            "Onion",
+            "Garlic",
+            "Ginger",
+            "Cooking oil"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 104,
+          "name": "Chicken Jhol Momo",
+          "price": 260,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Steamed chicken momo served in rich Nepali-style spicy sesame jhol.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "25 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Sesame",
+            "Tomato",
+            "Timur",
+            "Garlic",
+            "Chilli"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 105,
+          "name": "Chicken Fried Momo",
+          "price": 250,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Deep-fried chicken momo with a crispy exterior served with spicy dip.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "22 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Momo wrapper",
+            "Cooking oil",
+            "Garlic",
+            "Ginger",
+            "Chilli dip"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 106,
+          "name": "Buff Momo",
+          "price": 190,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Classic Nepali buff momo served with homemade sesame tomato achar.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Buff meat",
+            "Onion",
+            "Garlic",
+            "Ginger",
+            "Momo wrapper",
+            "Sesame achar"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 107,
+          "name": "Buff C Momo",
+          "price": 240,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Buff momo stir-fried in spicy chilli sauce with vegetables.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "22 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Buff momo",
+            "Capsicum",
+            "Onion",
+            "Garlic",
+            "Soy sauce",
+            "Chilli sauce"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 108,
+          "name": "Buff Kothey Momo",
+          "price": 210,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Pan-fried buff momo with crispy edges and juicy filling.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "22 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Buff meat",
+            "Momo wrapper",
+            "Onion",
+            "Garlic",
+            "Cooking oil",
+            "Ginger"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 109,
+          "name": "Buff Jhol Momo",
+          "price": 225,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Buff momo served in authentic Nepali sesame-based jhol.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "25 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Buff meat",
+            "Sesame",
+            "Tomato",
+            "Timur",
+            "Garlic",
+            "Chilli"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 110,
+          "name": "Buff Fried Momo",
+          "price": 225,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Golden fried buff momo with a crunchy bite.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "22 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Buff meat",
+            "Momo wrapper",
+            "Cooking oil",
+            "Garlic",
+            "Ginger",
+            "Chilli dip"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 111,
+          "name": "Veg Momo",
+          "price": 170,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Steamed vegetable momo filled with fresh seasonal vegetables.",
           "isVeg": true,
           "isPopular": false,
           "prepTime": "18 min",
@@ -61,27 +221,196 @@
             "Cabbage",
             "Carrot",
             "Onion",
-            "Paneer",
-            "Momo flour",
-            "Coriander"
+            "Spring onion",
+            "Momo wrapper",
+            "Sesame achar"
           ],
-          "rating": 4.5
+          "rating": 4.6
+        },
+        {
+          "id": 112,
+          "name": "Veg C Momo",
+          "price": 225,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Vegetable momo tossed in spicy chilli garlic sauce.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Veg momo",
+            "Capsicum",
+            "Onion",
+            "Garlic",
+            "Soy sauce",
+            "Chilli sauce"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 113,
+          "name": "Veg Kothey Momo",
+          "price": 195,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Pan-fried vegetable momo with crispy base.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Mixed vegetables",
+            "Momo wrapper",
+            "Onion",
+            "Garlic",
+            "Cooking oil",
+            "Ginger"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 114,
+          "name": "Veg Jhol Momo",
+          "price": 210,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Steamed vegetable momo served in flavorful sesame jhol.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "22 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Mixed vegetables",
+            "Sesame",
+            "Tomato",
+            "Garlic",
+            "Timur",
+            "Chilli"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 115,
+          "name": "Veg Fried Momo",
+          "price": 220,
+          "image": "https://ik.imagekit.io/iwcam3r8ka/prod/blog-header/202412/6d5c165f-2337-4320-afcf-1608e1e2c808.jpg",
+          "description": "Deep-fried vegetable momo served crispy and hot.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Mixed vegetables",
+            "Momo wrapper",
+            "Cooking oil",
+            "Garlic",
+            "Ginger",
+            "Chilli dip"
+          ],
+          "rating": 4.6
         }
       ]
     },
     {
       "id": 2,
+      "name": "Chowmein",
+      "slug": "chowmein",
+      "icon": "🍜",
+      "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+      "items": [
+        {
+          "id": 201,
+          "name": "Veg Chowmein",
+          "price": 190,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Classic stir-fried noodles tossed with fresh vegetables, soy sauce, and aromatic seasonings.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Egg noodles",
+            "Cabbage",
+            "Carrot",
+            "Capsicum",
+            "Onion",
+            "Soy sauce"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 202,
+          "name": "Egg Chowmein",
+          "price": 210,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Stir-fried noodles mixed with scrambled egg, fresh vegetables, and savory sauces.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Egg noodles",
+            "Egg",
+            "Cabbage",
+            "Carrot",
+            "Onion",
+            "Soy sauce"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 203,
+          "name": "Chicken Chowmein",
+          "price": 250,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "Wok-tossed noodles with tender chicken, fresh vegetables, and flavorful house seasoning.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "18 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Egg noodles",
+            "Chicken",
+            "Cabbage",
+            "Capsicum",
+            "Onion",
+            "Soy sauce"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 204,
+          "name": "Mixed Chowmein",
+          "price": 290,
+          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
+          "description": "A delicious combination of chicken, egg, fresh vegetables, and stir-fried noodles in signature seasoning.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Egg noodles",
+            "Chicken",
+            "Egg",
+            "Cabbage",
+            "Capsicum",
+            "Soy sauce"
+          ],
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": 3,
       "name": "Fried Rice",
       "slug": "fried-rice",
       "icon": "🍚",
       "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg",
       "items": [
         {
-          "id": 201,
+          "id": 301,
           "name": "Veg Fried Rice",
-          "price": 140,
+          "price": 180,
           "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg",
-          "description": "Stir-fried rice with fresh vegetables, soy sauce, and aromatic spices.",
+          "description": "Aromatic fried rice stir-fried with fresh vegetables and house seasoning.",
           "isVeg": true,
           "isPopular": false,
           "prepTime": "15 min",
@@ -91,429 +420,195 @@
             "Carrot",
             "Beans",
             "Cabbage",
-            "Soy sauce",
-            "Spring onion"
-          ],
-          "rating": 4.4
-        },
-        {
-          "id": 202,
-          "name": "Chicken Fried Rice",
-          "price": 160,
-          "image": "https://pupswithchopsticks.com/wp-content/uploads/chicken-fried-rice-done-1.jpg",
-          "description": "Classic fried rice tossed with tender chicken pieces, vegetables, and savory sauces.",
-          "isVeg": false,
-          "isPopular": false,
-          "prepTime": "18 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Rice",
-            "Chicken",
-            "Egg",
-            "Carrot",
-            "Soy sauce",
-            "Spring onion"
-          ],
-          "rating": 4.7
-        },
-        {
-          "id": 203,
-          "name": "Mix Fried Rice",
-          "price": 200,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReULxyEKCJIPfXbaNqDtJWb4STIcQoSWsI81Mm1oCWCEDow3M6SjLpQxZ2&s=10",
-          "description": "A delicious combination of chicken, vegetables, eggs, and aromatic fried rice.",
-          "isVeg": false,
-          "isPopular": true,
-          "prepTime": "20 min",
-          "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Rice",
-            "Chicken",
-            "Egg",
-            "Mixed vegetables",
-            "Soy sauce",
-            "Garlic"
-          ],
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Chowmein",
-      "slug": "chowmein",
-      "icon": "🍜",
-      "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
-      "items": [
-        {
-          "id": 301,
-          "name": "Veg Chowmein",
-          "price": 120,
-          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
-          "description": "Stir-fried noodles with fresh vegetables, soy sauce, and flavorful seasonings.",
-          "isVeg": true,
-          "isPopular": true,
-          "prepTime": "15 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Egg noodles",
-            "Cabbage",
-            "Carrot",
-            "Onion",
-            "Capsicum",
-            "Soy sauce"
+            "Spring Onion",
+            "Soy Sauce"
           ],
           "rating": 4.6
         },
         {
           "id": 302,
-          "name": "Egg Chowmein",
-          "price": 140,
-          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
-          "description": "Delicious stir-fried noodles mixed with scrambled eggs and vegetables.",
+          "name": "Egg Fried Rice",
+          "price": 220,
+          "image": "https://mission-food.com/wp-content/uploads/2022/01/Spicy-Vegetable-Fried-Rice-Featured.jpg",
+          "description": "Classic fried rice tossed with scrambled egg, vegetables, and savory sauces.",
           "isVeg": false,
           "isPopular": false,
           "prepTime": "15 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
-            "Egg noodles",
+            "Rice",
             "Egg",
-            "Cabbage",
             "Carrot",
-            "Onion",
-            "Soy sauce"
+            "Cabbage",
+            "Spring Onion",
+            "Soy Sauce"
           ],
-          "rating": 4.3
+          "rating": 4.7
         },
         {
           "id": 303,
-          "name": "Chicken Chowmein",
-          "price": 160,
-          "image": "https://i0.wp.com/cookingwithsapana.com/wp-content/uploads/2013/02/DSC_8021-3.jpg?resize=720%2C770&ssl=1",
-          "description": "Wok-tossed noodles with juicy chicken, fresh vegetables, and savory sauce.",
+          "name": "Chicken Fried Rice",
+          "price": 230,
+          "image": "https://pupswithchopsticks.com/wp-content/uploads/chicken-fried-rice-done-1.jpg",
+          "description": "Flavorful fried rice cooked with tender chicken pieces, vegetables, and signature seasoning.",
           "isVeg": false,
-          "isPopular": false,
+          "isPopular": true,
           "prepTime": "18 min",
-          "spiceLevel": "Mild",
+          "spiceLevel": "Medium",
           "keyIngredients": [
-            "Egg noodles",
+            "Rice",
             "Chicken",
-            "Cabbage",
             "Carrot",
-            "Capsicum",
-            "Soy sauce"
+            "Cabbage",
+            "Spring Onion",
+            "Soy Sauce"
           ],
-          "rating": 4.7
+          "rating": 4.8
+        },
+        {
+          "id": 304,
+          "name": "Mixed Fried Rice",
+          "price": 280,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReULxyEKCJIPfXbaNqDtJWb4STIcQoSWsI81Mm1oCWCEDow3M6SjLpQxZ2&s=10",
+          "description": "A delicious combination of chicken, egg, vegetables, and perfectly stir-fried rice.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Rice",
+            "Chicken",
+            "Egg",
+            "Carrot",
+            "Cabbage",
+            "Soy Sauce"
+          ],
+          "rating": 4.9
         }
       ]
     },
     {
       "id": 4,
-      "name": "Chicken Items",
-      "slug": "chicken-items",
-      "icon": "🍗",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdiEfbQjmwtMFhnoA9tn23e7K3iOUiIvK8StETd8w8zyUzGzwCCmIYI6Q&s=10",
-      "items": [
-        {
-          "id": 401,
-          "name": "Chicken Wings (1 pc)",
-          "price": 70,
-          "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
-          "description": "Crispy fried chicken wings seasoned with flavorful spices.",
-          "isVeg": false,
-          "isPopular": true,
-          "prepTime": "20 min",
-          "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Chicken wings",
-            "Garlic",
-            "Chilli flakes",
-            "Soy sauce",
-            "Ginger"
-          ],
-          "rating": 4.8
-        },
-        {
-          "id": 402,
-          "name": "Chicken Drumstick (1 pc)",
-          "price": 70,
-          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
-          "description": "Golden fried drumstick with juicy meat inside.",
-          "isVeg": false,
-          "isPopular": false,
-          "prepTime": "20 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Chicken drumstick",
-            "Garlic",
-            "Butter",
-            "Herbs",
-            "Lemon"
-          ],
-          "rating": 4.5
-        },
-        {
-          "id": 403,
-          "name": "Chicken Lollipop (1 pc)",
-          "price": 70,
-          "image": "https://static.toiimg.com/photo/53222175.cms",
-          "description": "Crispy chicken lollipop served with spicy dipping sauce.",
-          "isVeg": false,
-          "isPopular": true,
-          "prepTime": "22 min",
-          "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Chicken lollipop",
-            "Corn flour",
-            "Garlic",
-            "Chilli sauce",
-            "Ginger"
-          ],
-          "rating": 4.7
-        },
-        {
-          "id": 404,
-          "name": "Chilli Chicken",
-          "price": 160,
-          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
-          "description": "Spicy and tangy chicken tossed with onions, capsicum, and house-made chilli sauce.",
-          "isVeg": false,
-          "isPopular": true,
-          "prepTime": "20 min",
-          "spiceLevel": "Spicy",
-          "keyIngredients": [
-            "Chicken",
-            "Onion",
-            "Capsicum",
-            "Garlic",
-            "Chilli sauce",
-            "Soy sauce"
-          ],
-          "rating": 4.9
-        },
-        {
-          "id": 405,
-          "name": "Chicken Roast",
-          "price": 160,
-          "image": "https://static.toiimg.com/photo/53222175.cms",
-          "description": "Tender roasted chicken marinated with aromatic herbs and spices.",
-          "isVeg": false,
-          "isPopular": false,
-          "prepTime": "25 min",
-          "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Chicken",
-            "Garlic",
-            "Ginger",
-            "Nepali spices",
-            "Mustard oil"
-          ],
-          "rating": 4.5
-        },
-        {
-          "id": 406,
-          "name": "Chicken Choila",
-          "price": 160,
-          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
-          "description": "Authentic Nepali-style spicy grilled chicken mixed with mustard oil and herbs.",
-          "isVeg": false,
-          "isPopular": false,
-          "prepTime": "20 min",
-          "spiceLevel": "Spicy",
-          "keyIngredients": [
-            "Grilled chicken",
-            "Mustard oil",
-            "Timur",
-            "Chilli",
-            "Onion",
-            "Coriander"
-          ],
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Snacks",
-      "slug": "snacks",
-      "icon": "🍟",
-      "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
-      "items": [
-        {
-          "id": 501,
-          "name": "French Fries",
-          "price": 120,
-          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
-          "description": "Golden crispy fries lightly salted and served hot.",
-          "isVeg": true,
-          "isPopular": true,
-          "prepTime": "12 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Potato",
-            "Salt",
-            "Oil"
-          ],
-          "rating": 4.7
-        },
-        {
-          "id": 502,
-          "name": "Mustang Aalu",
-          "price": 130,
-          "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
-          "description": "Spicy Nepali-style potato snack tossed with local herbs and spices.",
-          "isVeg": true,
-          "isPopular": false,
-          "prepTime": "15 min",
-          "spiceLevel": "Medium",
-          "keyIngredients": [
-            "Potato",
-            "Timur",
-            "Chilli",
-            "Garlic",
-            "Coriander"
-          ],
-          "rating": 4.4
-        },
-        {
-          "id": 503,
-          "name": "Chips Chilli",
-          "price": 130,
-          "image": "https://khinskitchen.com/wp-content/uploads/2021/09/salt-and-chilli-chips-with-masala-2.jpg",
-          "description": "Crunchy chips stir-fried with vegetables and spicy chilli sauce.",
-          "isVeg": true,
-          "isPopular": true,
-          "prepTime": "15 min",
-          "spiceLevel": "Spicy",
-          "keyIngredients": [
-            "Potato chips",
-            "Onion",
-            "Capsicum",
-            "Chilli sauce",
-            "Garlic"
-          ],
-          "rating": 4.6
-        }
-      ]
-    },
-    {
-      "id": 6,
       "name": "Burger",
       "slug": "burger",
       "icon": "🍔",
       "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
       "items": [
         {
-          "id": 601,
-          "name": "Chicken Burger",
-          "price": 150,
+          "id": 401,
+          "name": "Veg Burger with Fries",
+          "price": 180,
           "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
-          "description": "Juicy chicken patty layered with lettuce, tomato, cheese, and signature sauce.",
-          "isVeg": false,
-          "isPopular": true,
+          "description": "Crispy vegetable patty layered with fresh lettuce, tomato, cheese, and signature sauce. Served with golden French fries.",
+          "isVeg": true,
+          "isPopular": false,
           "prepTime": "15 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
-            "Chicken patty",
+            "Veg Patty",
+            "Burger Bun",
             "Lettuce",
             "Tomato",
             "Cheese",
-            "Burger bun",
-            "Mayo sauce"
+            "French Fries"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 402,
+          "name": "Chicken Burger with Fries",
+          "price": 250,
+          "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
+          "description": "Juicy grilled chicken burger topped with fresh vegetables, cheese, and house sauce. Served with crispy French fries.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "18 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Chicken Patty",
+            "Burger Bun",
+            "Lettuce",
+            "Tomato",
+            "Cheese",
+            "French Fries"
           ],
           "rating": 4.8
         },
         {
-          "id": 602,
-          "name": "Veg Burger",
-          "price": 130,
+          "id": 403,
+          "name": "Crunchy Chicken Burger with Fries",
+          "price": 270,
           "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
-          "description": "Crispy vegetable patty with fresh lettuce and creamy sauce.",
-          "isVeg": true,
-          "isPopular": false,
-          "prepTime": "12 min",
-          "spiceLevel": "Mild",
-          "keyIngredients": [
-            "Veg patty",
-            "Lettuce",
-            "Tomato",
-            "Burger bun",
-            "Mayo sauce"
-          ],
-          "rating": 4.4
-        },
-        {
-          "id": 603,
-          "name": "Egg Burger",
-          "price": 140,
-          "image": "https://static01.nyt.com/images/2025/07/25/multimedia/kla-diner-style-burger-fkmj/kla-diner-style-burger-fkmj-videoSixteenByNineJumbo1600.jpg",
-          "description": "Soft bun filled with fried egg, fresh vegetables, and special sauce.",
+          "description": "Extra crispy fried chicken fillet burger with lettuce, cheese, and creamy sauce. Served with crispy French fries.",
           "isVeg": false,
-          "isPopular": false,
-          "prepTime": "12 min",
-          "spiceLevel": "Mild",
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
           "keyIngredients": [
-            "Fried egg",
-            "Burger bun",
+            "Crunchy Chicken Fillet",
+            "Burger Bun",
+            "Cheese",
             "Lettuce",
-            "Tomato",
-            "Special sauce"
+            "Signature Sauce",
+            "French Fries"
           ],
-          "rating": 4.5
+          "rating": 4.9
         }
       ]
     },
     {
-      "id": 7,
+      "id": 5,
       "name": "Sandwich",
       "slug": "sandwich",
       "icon": "🥪",
       "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
       "items": [
         {
-          "id": 701,
-          "name": "Veg Sandwich",
-          "price": 120,
+          "id": 501,
+          "name": "Veg Sandwich with Fries",
+          "price": 190,
           "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
-          "description": "Grilled sandwich filled with fresh vegetables and cheese.",
+          "description": "Freshly grilled sandwich loaded with vegetables, cheese, and creamy mayo. Served with crispy French fries.",
           "isVeg": true,
-          "isPopular": true,
-          "prepTime": "10 min",
+          "isPopular": false,
+          "prepTime": "12 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
             "Bread",
-            "Cucumber",
+            "Cabbage",
             "Tomato",
             "Cheese",
-            "Butter"
+            "Mayo",
+            "French Fries"
           ],
           "rating": 4.6
         },
         {
-          "id": 702,
-          "name": "Chicken Sandwich",
-          "price": 140,
+          "id": 502,
+          "name": "Chicken Sandwich with Fries",
+          "price": 250,
           "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
-          "description": "Toasted sandwich stuffed with seasoned chicken and fresh vegetables.",
+          "description": "Grilled sandwich stuffed with seasoned chicken, fresh vegetables, cheese, and signature sauce. Served with French fries.",
           "isVeg": false,
-          "isPopular": false,
+          "isPopular": true,
           "prepTime": "15 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
             "Bread",
             "Chicken",
             "Lettuce",
+            "Cheese",
             "Mayo",
-            "Cheese"
+            "French Fries"
           ],
-          "rating": 4.7
+          "rating": 4.8
         },
         {
-          "id": 703,
-          "name": "Egg Sandwich",
-          "price": 130,
+          "id": 503,
+          "name": "Egg Sandwich with Fries",
+          "price": 220,
           "image": "https://vaya.in/recipes/wp-content/uploads/2018/06/Club-sandwich.jpg",
-          "description": "Freshly toasted sandwich filled with egg, lettuce, and creamy dressing.",
+          "description": "Grilled sandwich filled with egg, fresh vegetables, cheese, and creamy mayo. Served with crispy French fries.",
           "isVeg": false,
           "isPopular": false,
           "prepTime": "12 min",
@@ -521,71 +616,217 @@
           "keyIngredients": [
             "Bread",
             "Egg",
-            "Lettuce",
+            "Cheese",
+            "Tomato",
             "Mayo",
-            "Butter"
+            "French Fries"
           ],
-          "rating": 4.4
+          "rating": 4.7
         }
       ]
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Sausage",
       "slug": "sausage",
       "icon": "🌭",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
       "items": [
         {
-          "id": 801,
-          "name": "Chicken Sausage (1 pc)",
-          "price": 60,
+          "id": 601,
+          "name": "Chicken Sausage (3 pcs)",
+          "price": 210,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
-          "description": "Juicy grilled chicken sausage served hot.",
+          "description": "Juicy grilled chicken sausages served hot with house dipping sauce.",
           "isVeg": false,
           "isPopular": false,
-          "prepTime": "10 min",
+          "prepTime": "12 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
-            "Chicken sausage",
+            "Chicken Sausage",
             "Butter",
-            "Herbs"
+            "Mixed Herbs",
+            "Black Pepper",
+            "Tomato Ketchup",
+            "Mustard Sauce"
           ],
-          "rating": 4.5
+          "rating": 4.6
         },
         {
-          "id": 802,
-          "name": "Buff Sausage (1 pc)",
-          "price": 60,
+          "id": 602,
+          "name": "Buff Sausage (3 pcs)",
+          "price": 200,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiaohtzDhqJ9_uBeDYBSmDUHg8WW2srLpt4SjwzJrg1P6dlCiC5BUKbU&s=10",
-          "description": "Grilled buffalo sausage with rich smoky flavor.",
+          "description": "Grilled buffalo sausages with smoky flavor served with signature dipping sauce.",
           "isVeg": false,
           "isPopular": true,
-          "prepTime": "10 min",
+          "prepTime": "12 min",
           "spiceLevel": "Mild",
           "keyIngredients": [
-            "Buffalo sausage",
+            "Buff Sausage",
             "Butter",
-            "Herbs"
+            "Mixed Herbs",
+            "Black Pepper",
+            "Tomato Ketchup",
+            "Mustard Sauce"
           ],
           "rating": 4.7
-        },
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sausage Chilli",
+      "slug": "sausage-chilli",
+      "icon": "🌶️",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
+      "items": [
         {
-          "id": 803,
-          "name": "Sausage Chilli",
-          "price": 160,
+          "id": 701,
+          "name": "Chicken Sausage Chilli (3 pcs)",
+          "price": 250,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
-          "description": "Spicy sausage tossed with onions, capsicum, and chilli sauce.",
+          "description": "Chicken sausages stir-fried with onions, capsicum, and spicy chilli garlic sauce.",
           "isVeg": false,
           "isPopular": true,
           "prepTime": "15 min",
           "spiceLevel": "Spicy",
           "keyIngredients": [
-            "Sausage",
+            "Chicken Sausage",
             "Onion",
             "Capsicum",
-            "Chilli sauce",
-            "Garlic"
+            "Garlic",
+            "Chilli Sauce",
+            "Soy Sauce"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 702,
+          "name": "Buff Sausage Chilli (3 pcs)",
+          "price": 240,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
+          "description": "Buff sausages tossed with vegetables and house-made spicy chilli sauce.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "15 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Buff Sausage",
+            "Onion",
+            "Capsicum",
+            "Garlic",
+            "Chilli Sauce",
+            "Soy Sauce"
+          ],
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Chicken Specials",
+      "slug": "chicken-specials",
+      "icon": "🍗",
+      "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+      "items": [
+        {
+          "id": 801,
+          "name": "Chicken Choila (250 gm)",
+          "price": 220,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Authentic Nepali-style grilled chicken mixed with mustard oil, herbs, and aromatic spices.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Grilled Chicken",
+            "Mustard Oil",
+            "Onion",
+            "Garlic",
+            "Timur",
+            "Coriander"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 802,
+          "name": "Dragon Chicken",
+          "price": 280,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Crispy chicken strips tossed in sweet, spicy, and tangy dragon sauce.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "22 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Chicken",
+            "Capsicum",
+            "Onion",
+            "Dragon Sauce",
+            "Garlic",
+            "Sesame Seeds"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 803,
+          "name": "Crunchy Chicken",
+          "price": 370,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Extra crispy fried chicken coated with seasoned crunchy batter and served with signature dip.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "25 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Flour",
+            "Corn Flour",
+            "Garlic",
+            "Black Pepper",
+            "House Seasoning"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 804,
+          "name": "Chicken Tempura",
+          "price": 265,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Tender chicken fillets coated in light tempura batter and fried until crispy.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Chicken Fillet",
+            "Tempura Batter",
+            "Corn Flour",
+            "Black Pepper",
+            "Garlic",
+            "Dipping Sauce"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 805,
+          "name": "Chicken Tawa",
+          "price": 225,
+          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/side%20dish/Chilli_Chicken.webp",
+          "description": "Tender chicken cooked on a hot tawa with onions, capsicum, and traditional spices.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "18 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Onion",
+            "Capsicum",
+            "Garlic",
+            "Ginger",
+            "House Masala"
           ],
           "rating": 4.8
         }
@@ -593,46 +834,390 @@
     },
     {
       "id": 9,
-      "name": "Current Noodles",
-      "slug": "current-noodles",
-      "icon": "🍜",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
+      "name": "Wings & Leg Pieces",
+      "slug": "wings-leg-pieces",
+      "icon": "🍗",
+      "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
       "items": [
         {
           "id": 901,
+          "name": "Chicken Lollipop (3 pcs)",
+          "price": 210,
+          "image": "https://static.toiimg.com/photo/53222175.cms",
+          "description": "Crispy chicken lollipops marinated with signature spices and served with spicy dip.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken Lollipop",
+            "Corn Flour",
+            "Garlic",
+            "Ginger",
+            "House Seasoning",
+            "Chilli Dip"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 902,
+          "name": "Chicken Drumstick (3 pcs)",
+          "price": 210,
+          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "description": "Juicy fried drumsticks seasoned with herbs and spices. Served with dipping sauce.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "22 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Chicken Drumstick",
+            "Garlic",
+            "Black Pepper",
+            "Mixed Herbs",
+            "Butter",
+            "Dipping Sauce"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": 903,
+          "name": "Chicken Wings (3 pcs)",
+          "price": 210,
+          "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
+          "description": "Golden fried chicken wings coated with house seasoning and served hot.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken Wings",
+            "Garlic",
+            "Black Pepper",
+            "Corn Flour",
+            "House Seasoning",
+            "Dipping Sauce"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 904,
+          "name": "Hot Wings (3 pcs)",
+          "price": 250,
+          "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
+          "description": "Spicy chicken wings glazed with fiery hot sauce for extra flavor.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Extra Spicy",
+          "keyIngredients": [
+            "Chicken Wings",
+            "Hot Sauce",
+            "Garlic",
+            "Chilli Flakes",
+            "Butter",
+            "Black Pepper"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 905,
+          "name": "Schezwan Chicken Wings (4 pcs)",
+          "price": 580,
+          "image": "https://www.justspices.de/media/recipe/Korean-Chicken-Wings.jpeg",
+          "description": "Premium chicken wings coated in rich Schezwan sauce with bold spicy flavors.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "25 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Chicken Wings",
+            "Schezwan Sauce",
+            "Garlic",
+            "Spring Onion",
+            "Sesame",
+            "Chilli"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 906,
+          "name": "Leg Piece (Medium)",
+          "price": 250,
+          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "description": "Medium-sized crispy fried chicken leg, marinated with signature herbs and spices.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken Leg",
+            "Garlic",
+            "Black Pepper",
+            "Corn Flour",
+            "Mixed Herbs",
+            "House Seasoning"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 907,
+          "name": "Leg Piece (Large)",
+          "price": 350,
+          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "description": "Large crispy fried chicken leg with juicy meat inside, served with house dip.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "25 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken Leg",
+            "Garlic",
+            "Black Pepper",
+            "House Seasoning",
+            "Butter",
+            "Dipping Sauce"
+          ],
+          "rating": 4.9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Snacks & Veggie",
+      "slug": "snacks-veggie",
+      "icon": "🍟",
+      "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+      "items": [
+        {
+          "id": 1001,
+          "name": "French Fries",
+          "price": 160,
+          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+          "description": "Golden crispy French fries seasoned with salt and served with tomato ketchup.",
+          "isVeg": true,
+          "isPopular": true,
+          "prepTime": "12 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": ["Potato", "Salt", "Cooking Oil", "Ketchup"],
+          "rating": 4.8
+        },
+        {
+          "id": 1002,
+          "name": "Cheese Loaded Fries",
+          "price": 200,
+          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+          "description": "Golden crispy French fries generously topped with melted cheese and finished with signature sauces.",
+          "isVeg": true,
+          "isPopular": true,
+          "prepTime": "15 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "French Fries",
+            "Mozzarella Cheese",
+            "Cheese Sauce",
+            "Mayonnaise",
+            "Spring Onion",
+            "House Seasoning"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": 1003,
+          "name": "Mustang Aalu",
+          "price": 220,
+          "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
+          "description": "Traditional Nepali-style spicy potatoes tossed with herbs and local spices.",
+          "isVeg": true,
+          "isPopular": true,
+          "prepTime": "15 min",
+          "spiceLevel": "Spicy",
+          "keyIngredients": [
+            "Potato",
+            "Timur",
+            "Chilli",
+            "Garlic",
+            "Mustard Oil",
+            "Coriander"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 1004,
+          "name": "Pyaji Pakoda",
+          "price": 250,
+          "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
+          "description": "Crispy onion fritters served hot with spicy tomato chutney.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "18 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Onion",
+            "Gram Flour",
+            "Chilli",
+            "Coriander",
+            "Turmeric",
+            "Oil"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 1005,
+          "name": "Aalu Chop",
+          "price": 250,
+          "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
+          "description": "Deep-fried potato patties seasoned with Nepali spices and served with chutney.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Potato",
+            "Gram Flour",
+            "Garlic",
+            "Ginger",
+            "Spices",
+            "Oil"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 1006,
+          "name": "Crispy Potatoes",
+          "price": 220,
+          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+          "description": "Perfectly crispy potato cubes tossed with herbs, garlic, and house seasoning.",
+          "isVeg": true,
+          "isPopular": true,
+          "prepTime": "15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Potato",
+            "Garlic",
+            "Black Pepper",
+            "Mixed Herbs",
+            "Butter",
+            "House Seasoning"
+          ],
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Spring Rolls",
+      "slug": "spring-rolls",
+      "icon": "🌯",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/spring-rolls-recipe.jpg",
+      "items": [
+        {
+          "id": 1101,
+          "name": "Chicken Spring Roll",
+          "price": 215,
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/spring-rolls-recipe.jpg",
+          "description": "Crispy golden spring rolls stuffed with seasoned chicken and fresh vegetables. Served with sweet chilli sauce.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "18 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Chicken",
+            "Spring Roll Wrapper",
+            "Cabbage",
+            "Carrot",
+            "Garlic",
+            "Sweet Chilli Sauce"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": 1102,
+          "name": "Veg Spring Roll",
+          "price": 250,
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/spring-rolls-recipe.jpg",
+          "description": "Crunchy spring rolls filled with fresh vegetables and aromatic seasonings. Served with sweet chilli sauce.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Spring Roll Wrapper",
+            "Cabbage",
+            "Carrot",
+            "Capsicum",
+            "Spring Onion",
+            "Sweet Chilli Sauce"
+          ],
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Current Noodles",
+      "slug": "current-noodles",
+      "icon": "🍜",
+      "image": "https://static.toiimg.com/thumb/52727664.cms?width=1200&height=900",
+      "items": [
+        {
+          "id": 1201,
           "name": "Current Noodles with Cheese & Chicken",
-          "price": 150,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
-          "description": "Instant noodles upgraded with melted cheese, juicy chicken, and flavorful seasoning.",
+          "price": 220,
+          "image": "https://static.toiimg.com/thumb/52727664.cms?width=1200&height=900",
+          "description": "Spicy Current noodles cooked with tender chicken, melted cheese, and flavorful seasonings for a rich and satisfying meal.",
           "isVeg": false,
           "isPopular": true,
           "prepTime": "12 min",
           "spiceLevel": "Medium",
           "keyIngredients": [
-            "Instant noodles",
-            "Cheese",
+            "Current Noodles",
             "Chicken",
-            "Noodle masala",
-            "Spring onion"
+            "Cheese",
+            "Onion",
+            "Capsicum",
+            "House Seasoning"
           ],
           "rating": 4.9
         },
         {
-          "id": 902,
-          "name": "Veg Current Noodles",
-          "price": 100,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmCx4-xtdpHGkrR8eWrTh5g26bwulwN0wreHyuXn0LOH6fEX4bjbFyeiuV&s=10",
-          "description": "Quick and delicious instant noodles cooked with fresh vegetables.",
+          "id": 1202,
+          "name": "Plain Current Noodles",
+          "price": 140,
+          "image": "https://static.toiimg.com/thumb/52727664.cms?width=1200&height=900",
+          "description": "Classic spicy Current noodles prepared with fresh vegetables and signature seasoning.",
           "isVeg": true,
           "isPopular": false,
-          "prepTime": "10 min",
-          "spiceLevel": "Mild",
+          "prepTime": "8 min",
+          "spiceLevel": "Medium",
           "keyIngredients": [
-            "Instant noodles",
-            "Mixed vegetables",
-            "Noodle masala"
+            "Current Noodles",
+            "Seasoning Mix",
+            "Onion",
+            "Spring Onion",
+            "Cooking Oil",
+            "Chilli Flakes"
           ],
           "rating": 4.5
+        },
+        {
+          "id": 1203,
+          "name": "Current Noodles with Boiled Egg",
+          "price": 210,
+          "image": "https://static.toiimg.com/thumb/52727664.cms?width=1200&height=900",
+          "description": "Hot and flavorful Current noodles topped with a perfectly boiled egg and fresh herbs.",
+          "isVeg": false,
+          "isPopular": true,
+          "prepTime": "10 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Current Noodles",
+            "Boiled Egg",
+            "Onion",
+            "Spring Onion",
+            "Seasoning Mix",
+            "Chilli Flakes"
+          ],
+          "rating": 4.7
         }
       ]
     }

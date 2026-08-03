@@ -1,11 +1,17 @@
 import MenuCardUI from "@/components/MenuCard"
+import QuantityStepper from "@/components/QuantityStepper"
+import VegBadge from "@/components/VegBadge"
+import { Button } from "@/components/ui/button"
 import menuData from "@/data/menu.json"
+import useCart from "@/hooks/useCart"
 import { ROUTES } from "@/routes/routes"
-import { Link, useNavigate, useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 const MenuDetail = () => {
   const { id } = useParams()
   const navigate = useNavigate()
+
+  const { cart, addToCart, increaseQuantity, decreaseQuantity } = useCart()
 
   const itemDetail = [
     { icon: "⏱️", label: "Prep Time", key: "prepTime" },
@@ -20,8 +26,11 @@ const MenuDetail = () => {
   const category = menuData.categories.find((category) =>
     category.items.some((menuItem) => menuItem.id === Number(id))
   )
+
   const relatedItems =
     category?.items.filter((item) => item.id !== Number(id)) ?? []
+
+  const cartItem = cart.find((cartItem) => cartItem.id === item?.id)
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -31,23 +40,17 @@ const MenuDetail = () => {
       >
         ← Back to Menu
       </button>
+
       <div className="mb-16 grid grid-cols-1 gap-12 lg:grid-cols-2">
+        {/* Image */}
         <div className="relative h-72 overflow-hidden rounded-3xl bg-orange-50 sm:h-96">
           <img
             src={item?.image}
             alt={item?.name}
             className="h-full w-full object-cover"
           />
-          <div className="absolute top-4 left-4">
-            <span
-              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${item?.isVeg ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"}`}
-            >
-              <span
-                className={`h-2 w-2 rounded-full ${item?.isVeg ? "bg-green-700" : "bg-red-500"}`}
-              ></span>
-              {item?.isVeg ? "Veg" : "Non-Veg"}
-            </span>
-          </div>
+
+          <VegBadge isVeg={!!item?.isVeg} className="absolute top-4 left-4" />
         </div>
 
         <div>
@@ -57,12 +60,16 @@ const MenuDetail = () => {
               {category?.name}
             </span>
           </div>
+
           <h1 className="mb-3 text-3xl font-black text-gray-900 sm:text-4xl">
             {item?.name}
           </h1>
+
           <p className="mt-4 mb-6 text-base leading-relaxed text-gray-600">
             {item?.description}
           </p>
+
+          {/* Prep / Spice / Rating */}
           <div className="mb-6 grid grid-cols-3 gap-4">
             {itemDetail.map((detail) => (
               <div
@@ -70,6 +77,7 @@ const MenuDetail = () => {
                 className="rounded-2xl bg-gray-50 p-4 text-center"
               >
                 <div className="mb-1 text-xl">{detail.icon}</div>
+
                 <div className="text-xs font-medium text-gray-500">
                   {detail.label}
                 </div>
@@ -94,10 +102,12 @@ const MenuDetail = () => {
               </div>
             ))}
           </div>
+
           <div className="mb-6">
             <h3 className="mb-3 text-sm font-bold text-gray-900">
               Key Ingredients
             </h3>
+
             <div className="flex flex-wrap gap-2">
               {item?.keyIngredients.map((ingredient) => (
                 <span
@@ -109,30 +119,52 @@ const MenuDetail = () => {
               ))}
             </div>
           </div>
+
           <div className="flex items-center gap-6">
             <div>
               <div className="text-3xl font-black text-[#FF7A00]">
                 Rs.{item?.price}
               </div>
+
               <div className="text-xs font-medium text-gray-400">
                 inclusive of all taxes
               </div>
             </div>
-            <button className="flex-1 cursor-pointer rounded-2xl bg-[#FF7A00] py-4 text-base font-black text-white shadow-lg shadow-orange-200 transition-all hover:scale-105 hover:bg-[#E06600]">
-              Add to Cart
-            </button>
+
+            {cartItem ? (
+              <>
+                <QuantityStepper
+                  size="lg"
+                  quantity={cartItem.quantity}
+                  itemName={item!.name}
+                  onIncrease={() => increaseQuantity(item!.id)}
+                  onDecrease={() => decreaseQuantity(item!.id)}
+                />
+                <Button className="hidden h-14 w-40 md:block">
+                  {" "}
+                  View Cart
+                </Button>
+              </>
+            ) : (
+              <button
+                className="flex-1 cursor-pointer rounded-2xl bg-[#FF7A00] py-4 text-base font-black text-white shadow-lg shadow-orange-200 transition-all hover:scale-105 hover:bg-[#E06600]"
+                onClick={() => addToCart(item)}
+              >
+                Add to Cart
+              </button>
+            )}
           </div>
         </div>
       </div>
+
       <div>
         <h2 className="mb-6 text-2xl font-black text-gray-900">
           You May Also Like
         </h2>
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {relatedItems.map((item) => (
-            <Link to={`/${item.name}/${item.id}`}>
-              <MenuCardUI key={item.id} item={item} />
-            </Link>
+            <MenuCardUI key={item.id} item={item} />
           ))}
         </div>
       </div>

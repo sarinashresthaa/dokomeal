@@ -1,50 +1,71 @@
+import QuantityStepper from "@/components/QuantityStepper"
+import VegBadge from "@/components/VegBadge"
+import useCart, { type MenuItem } from "@/hooks/useCart"
+import { useNavigate } from "react-router-dom"
+
 type MenuCardProps = {
-  item: {
-    id: number
-    name: string
-    price: number
-    image: string
-    description: string
-    isVeg: boolean
-  }
+  item: MenuItem
 }
 
 const MenuCardUI = ({ item }: MenuCardProps) => {
+  const navigate = useNavigate()
+  const { cart, addToCart, increaseQuantity, decreaseQuantity } = useCart()
+
+  const cartItem = cart.find((cartItem) => cartItem.id === item.id)
+
   return (
-    <div className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:shadow-md">
-      <div className="relative h-48 cursor-pointer overflow-hidden bg-orange-500">
+    <div
+      onClick={() => navigate(`/${item.name}/${item.id}`)}
+      className="group relative cursor-pointer overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:shadow-md"
+    >
+      <div className="relative h-48 overflow-hidden bg-orange-500">
         <img
           src={item.image}
           alt={item.name}
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute top-3 left-3">
-          <span
-            className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${item.isVeg ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"}`}
-          >
-            <span
-              className={`h-2 w-2 rounded-full ${item.isVeg ? "bg-green-700" : "bg-red-500"}`}
-            ></span>
-            {item.isVeg ? "Veg" : "Non-Veg"}
-          </span>
-        </div>
+
+        <VegBadge isVeg={item.isVeg} className="absolute top-3 left-3" />
       </div>
+
       <div className="p-4">
-        <div className="cursor-pointer">
-          <h3 className="mb-1 text-base leading-tight font-bold text-gray-900">
-            {item.name}
-          </h3>
-          <p className="mb-3 line-clamp-2 text-xs leading-relaxed text-gray-500">
-            {item.description}
-          </p>
-        </div>
-        <div className="mt-3 flex items-center justify-between">
+        <h3 className="mb-1 text-base leading-tight font-bold text-gray-900">
+          {item.name}
+        </h3>
+
+        <p className="mb-3 line-clamp-2 text-xs leading-relaxed text-gray-500">
+          {item.description}
+        </p>
+      </div>
+
+      <div className="px-4 pb-4">
+        <div className="flex items-center justify-between">
           <span className="text-lg font-bold text-[#FF7A00]">
             Rs.{item.price}
           </span>
-          <button className="rounded-xl bg-[#FF7A00] px-4 py-2 text-sm font-bold text-white shadow-sm shadow-orange-200 transition-colors hover:bg-[#E06600]">
-            Add to Cart
-          </button>
+
+          {/* Covers the stepper too, so changing quantity
+              from the grid does not open the item page */}
+          <div onClick={(event) => event.stopPropagation()}>
+            {cartItem ? (
+              <QuantityStepper
+                quantity={cartItem.quantity}
+                itemName={item.name}
+                onIncrease={() => increaseQuantity(item.id)}
+                onDecrease={() => decreaseQuantity(item.id)}
+              />
+            ) : (
+              <button
+                className="cursor-pointer rounded-xl bg-[#FF7A00] px-4 py-2 text-sm font-bold text-white shadow-sm shadow-orange-200 transition-colors hover:bg-[#E06600]"
+                onClick={(event) => {
+                  event.stopPropagation()
+                  addToCart(item)
+                }}
+              >
+                Add to Cart
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>

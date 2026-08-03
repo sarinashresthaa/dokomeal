@@ -1,7 +1,7 @@
 import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { useEffect, useState } from "react"
-import { Link, useSearchParams } from "react-router-dom"
+import { useSearchParams } from "react-router-dom"
 
 const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState(0)
@@ -76,9 +76,7 @@ const Menu = () => {
       </p>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filteredItems.map((item) => (
-          <Link to={`/${item.name}/${item.id}`}>
-            <MenuCardUI key={item.id} item={item} />
-          </Link>
+          <MenuCardUI key={item.id} item={item} />
         ))}
       </div>
     </div>
