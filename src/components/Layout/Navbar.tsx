@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <button
             onClick={() => navigate(ROUTES.HOME)}
-            className="group flex items-center gap-2"
+            className="group flex cursor-pointer items-center gap-2"
           >
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#FF7A00] shadow-md shadow-orange-200">
               <span className="text-xl">🍽️</span>

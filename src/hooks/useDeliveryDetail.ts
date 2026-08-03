@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 
+import { clearCookie, readCookie, writeCookie } from "@/lib/cookies"
+
 export type DeliveryDetailValues = {
   fullName: string
   phone: string
@@ -17,6 +19,11 @@ export type PersistedDeliveryDetail = Omit<DeliveryDetailValues, "notes">
 
 const STORAGE_KEY = "deliveryDetail"
 
+// The address goes in a cookie instead of localStorage: people move around,
+// so a stale pin is worse than no pin, and the browser drops it for us
+const ADDRESS_COOKIE_KEY = "deliveryAddress"
+const ADDRESS_MAX_AGE_SECONDS = 5 * 60
+
 const emptyDeliveryDetail: PersistedDeliveryDetail = {
   fullName: "",
   phone: "",
@@ -28,12 +35,19 @@ const emptyDeliveryDetail: PersistedDeliveryDetail = {
 
 const readDeliveryDetail = (): PersistedDeliveryDetail => {
   try {
-    const { fullName, phone, address, landmark, lat, lng } = {
+    // Only the contact fields come from localStorage, so an address left
+    // there by an older build never outlives the cookie
+    const { fullName, phone, landmark } = {
       ...emptyDeliveryDetail,
       ...JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"),
     }
 
-    return { fullName, phone, address, landmark, lat, lng }
+    const { address, lat, lng } = {
+      ...emptyDeliveryDetail,
+      ...JSON.parse(readCookie(ADDRESS_COOKIE_KEY) || "{}"),
+    }
+
+    return { fullName, phone, landmark, address, lat, lng }
   } catch {
     return emptyDeliveryDetail
   }
@@ -42,14 +56,26 @@ const readDeliveryDetail = (): PersistedDeliveryDetail => {
 const saveDeliveryDetail = ({
   fullName,
   phone,
-  address,
   landmark,
+  address,
   lat,
   lng,
 }: DeliveryDetailValues) => {
   localStorage.setItem(
     STORAGE_KEY,
-    JSON.stringify({ fullName, phone, address, landmark, lat, lng })
+    JSON.stringify({ fullName, phone, landmark })
+  )
+
+  if (!address) {
+    clearCookie(ADDRESS_COOKIE_KEY)
+    return
+  }
+
+  // Every edit restarts the 5 minutes, so an address in use stays put
+  writeCookie(
+    ADDRESS_COOKIE_KEY,
+    JSON.stringify({ address, lat, lng }),
+    ADDRESS_MAX_AGE_SECONDS
   )
 }
 

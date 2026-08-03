@@ -3,7 +3,7 @@ import Hero from "@/components/Layout/Hero"
 import MenuCardUI from "@/components/MenuCard"
 import menuData from "@/data/menu.json"
 import { ROUTES } from "@/routes/routes"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const Home = () => {
   const featureItem = [
@@ -112,9 +112,9 @@ const Home = () => {
 
       <div className="mx-4 mb-16 max-w-6xl sm:mx-6 lg:mx-auto">
         <div className="relative flex flex-col items-center justify-between gap-6 overflow-hidden rounded-3xl bg-[#FF7A00] p-8 sm:p-12 md:flex-row">
-          <div className="bg-opacity-10 absolute -top-10 -right-10 h-48 w-48 rounded-full bg-white"></div>
-          <div className="bg-opacity-10 absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-white"></div>
-          <div className="relative">
+          <div className="bg-opacity-10 absolute -top-10 -right-10 hidden h-44 w-44 rounded-full bg-white md:block"></div>
+          <div className="bg-opacity-10 absolute -bottom-10 -left-10 hidden h-32 w-32 rounded-full bg-white md:block"></div>
+          <div className="relative md:ml-6 lg:ml-10">
             <h2 className="mb-2 text-2xl font-black text-white sm:text-3xl">
               Hungry? Order Now!
             </h2>
@@ -122,14 +122,12 @@ const Home = () => {
               Free delivery on orders above Rs. 500
             </p>
           </div>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative flex items-center gap-2 rounded-2xl bg-white px-8 py-4 font-black whitespace-nowrap text-[#FF7A00] shadow-lg transition-colors hover:bg-orange-50"
+          <Link
+            to={ROUTES.MENU}
+            className="inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 font-bold text-[#FF7A00] shadow-xl shadow-orange-900/30 transition-all hover:scale-105 md:mr-25 lg:mr-40"
           >
-            💬Chat on WhatsApp
-          </a>
+            Browse Menu
+          </Link>
         </div>
       </div>
     </div>

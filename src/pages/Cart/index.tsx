@@ -9,7 +9,8 @@ import OrderSummary from "@/components/OrderSummary"
 
 const Cart = () => {
   const navigate = useNavigate()
-  const { cart, increaseQuantity, decreaseQuantity, removeFromCart } = useCart()
+  const { cart, increaseQuantity, decreaseQuantity, removeFromCart, clearCart } =
+    useCart()
   const deliveryForm = useDeliveryDetail()
 
   if (cart.length === 0) {
@@ -52,7 +53,7 @@ const Cart = () => {
             </div>
           </div>
           <div className="lg:col-span-1">
-            <OrderSummary cart={cart} />
+            <OrderSummary cart={cart} clearCart={clearCart} />
           </div>
         </div>
       </FormProvider>

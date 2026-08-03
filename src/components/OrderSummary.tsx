@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom"
 
 type OrderSummaryProps = {
   cart: CartItem[]
+  clearCart: () => void
 }
 
 const OrderSummary = ({ cart }: OrderSummaryProps) => {
@@ -50,9 +51,7 @@ const OrderSummary = ({ cart }: OrderSummaryProps) => {
     const items = cart
       .map(
         (item) =>
-          `• ${item.name} x ${item.quantity} - Rs.${
-            item.price * item.quantity
-          }`
+          `• ${item.name} x ${item.quantity} - Rs.${item.price * item.quantity}`
       )
       .join("\n")
 
@@ -97,9 +96,7 @@ Please confirm my order. Thank you!`
 
   return (
     <div className="sticky top-20 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-      <h2 className="mb-6 text-lg font-black text-gray-900">
-        Order Summary
-      </h2>
+      <h2 className="mb-6 text-lg font-black text-gray-900">Order Summary</h2>
 
       {/* Cart Items */}
       <div className="mb-4 space-y-3">
@@ -122,19 +119,13 @@ Please confirm my order. Thank you!`
       {/* Subtotal & Delivery */}
       <div className="space-y-2 border-t border-gray-100 pt-4">
         <div className="flex justify-between text-sm">
-          <span className="text-gray-500">
-            Subtotal
-          </span>
+          <span className="text-gray-500">Subtotal</span>
 
-          <span className="font-semibold">
-            Rs.{subtotal}
-          </span>
+          <span className="font-semibold">Rs.{subtotal}</span>
         </div>
 
         <div className="flex justify-between text-sm">
-          <span className="text-gray-500">
-            Delivery
-          </span>
+          <span className="text-gray-500">Delivery</span>
 
           <span className="font-semibold">
             {quote.status === "unknown"
@@ -149,13 +140,9 @@ Please confirm my order. Thank you!`
 
         {distance !== null && (
           <div className="flex justify-between text-sm">
-            <span className="text-gray-500">
-              Distance
-            </span>
+            <span className="text-gray-500">Distance</span>
 
-            <span className="font-semibold">
-              ~{formatDistance(distance)}
-            </span>
+            <span className="font-semibold">~{formatDistance(distance)}</span>
           </div>
         )}
 
@@ -175,13 +162,9 @@ Please confirm my order. Thank you!`
 
       {/* Total */}
       <div className="mt-4 mb-6 flex items-center justify-between border-t border-gray-100 pt-4">
-        <span className="text-lg font-black text-gray-900">
-          Total
-        </span>
+        <span className="text-lg font-black text-gray-900">Total</span>
 
-        <span className="text-2xl font-black text-[#FF7A00]">
-          Rs.{total}
-        </span>
+        <span className="text-2xl font-black text-[#FF7A00]">Rs.{total}</span>
       </div>
 
       {isOutOfRange && (
