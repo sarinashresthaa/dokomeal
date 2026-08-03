@@ -27,7 +27,7 @@ const Menu = () => {
   )
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <div className="mb-8">
         <h1 className="mb-2 text-3xl font-extrabold text-gray-900 capitalize sm:text-4xl">
           Our Menu
@@ -74,7 +74,7 @@ const Menu = () => {
       <p className="mb-6 text-sm font-medium text-gray-500">
         {filteredItems.length} items found
       </p>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {filteredItems.map((item) => (
           <MenuCardUI key={item.id} item={item} />
         ))}
