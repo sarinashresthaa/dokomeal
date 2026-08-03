@@ -1,9 +1,10 @@
-name: Deploy Dokomeal
+name: Deploy Dokomeal Frontend
 
 on:
   push:
-    branches: [main]     # change if your default branch is different
+    branches: [main]
   workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: self-hosted
@@ -12,10 +13,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
 
-      - name: Restart app
-        run: pm2 restart dokomeal || pm2 start npm --name "dokomeal" -- start
+      - name: Deploy static files
+        run: |
+          rsync -av --delete build/ /home/deploy/dokomandu/www/dokomeal/
