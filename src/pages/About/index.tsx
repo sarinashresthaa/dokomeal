@@ -62,7 +62,7 @@ const About = () => {
               Freshness in Every Bite
             </h2>
             <p className="mb-4 leading-relaxed text-gray-600">
-              DokoMeal started in 2020 with a simple mission: make
+              DokoMeal started in 2026 with a simple mission: make
               restaurant-quality food accessible, affordable, and delivered
               fresh. We're a fully cloud-based kitchen — no tables, no frills —
               just incredible food prepared with love.

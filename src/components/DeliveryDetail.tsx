@@ -35,7 +35,7 @@ const DeliveryDetail = () => {
 
           <Input
             id="fullName"
-            placeholder="e.g. Sarina Shrestha"
+            placeholder="e.g. John Doe"
             aria-invalid={!!errors.fullName}
             className={fieldClass}
             {...register("fullName", {
@@ -62,7 +62,7 @@ const DeliveryDetail = () => {
             id="phone"
             type="tel"
             inputMode="numeric"
-            placeholder="e.g. 9867517425"
+            placeholder="e.g. 9800000000"
             aria-invalid={!!errors.phone}
             className={fieldClass}
             {...register("phone", {

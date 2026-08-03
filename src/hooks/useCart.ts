@@ -18,19 +18,27 @@ export type CartItem = MenuItem & {
   quantity: number
 }
 
+const STORAGE_KEY = "cart"
+
+// The cart lives in sessionStorage, so it belongs to this browsing
+// session only and is gone once the tab is closed
+const readCart = (): CartItem[] => {
+  try {
+    const stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "[]")
+
+    return Array.isArray(stored) ? stored : []
+  } catch {
+    return []
+  }
+}
+
 const useCart = () => {
-  const [cart, setCart] = useState<CartItem[]>(() => {
-    return JSON.parse(localStorage.getItem("cart") || "[]")
-  })
+  const [cart, setCart] = useState<CartItem[]>(readCart)
 
   // Listen for cart changes
   useEffect(() => {
     const handleCartUpdate = () => {
-      const updatedCart = JSON.parse(
-        localStorage.getItem("cart") || "[]"
-      )
-
-      setCart(updatedCart)
+      setCart(readCart())
     }
 
     window.addEventListener("cartUpdated", handleCartUpdate)
@@ -43,7 +51,7 @@ const useCart = () => {
   // Save cart and notify other components
   const saveCart = (updatedCart: CartItem[]) => {
     setCart(updatedCart)
-    localStorage.setItem("cart", JSON.stringify(updatedCart))
+    sessionStorage.setItem(STORAGE_KEY, JSON.stringify(updatedCart))
 
     window.dispatchEvent(new Event("cartUpdated"))
   }
@@ -115,12 +123,18 @@ const useCart = () => {
     saveCart(updatedCart)
   }
 
+  // The order has left for WhatsApp, so the cart has served its purpose
+  const clearCart = () => {
+    saveCart([])
+  }
+
   return {
     cart,
     addToCart,
     increaseQuantity,
     decreaseQuantity,
     removeFromCart,
+    clearCart,
   }
 }
 

@@ -54,6 +54,7 @@ const PINNED_ZOOM = 17
 const AddressPicker = () => {
   const {
     register,
+    getValues,
     setValue,
     watch,
     formState: { errors },
@@ -109,10 +110,13 @@ const AddressPicker = () => {
     [applyLocation]
   )
 
-  // Pre-fill the pin from the device on every visit, so the address always
-  // starts from where the customer actually is rather than from a stale one
-  // saved on an earlier order. Dragging or searching still overrides it.
-  const [isLocating, setIsLocating] = useState(() => !!navigator.geolocation)
+  // Pre-fill the pin from the device, so the address starts from where the
+  // customer actually is. Skipped while the address cookie is still alive —
+  // that address is minutes old, so asking again would only re-answer a
+  // question the customer already settled. Dragging or searching still wins.
+  const [isLocating, setIsLocating] = useState(
+    () => !!navigator.geolocation && !getValues("address")
+  )
 
   const hasAskedForLocation = useRef(false)
 
