@@ -1,5 +1,7 @@
 import { ROUTES } from "@/routes/routes"
 import useCart from "@/hooks/useCart"
+import useDeliveryDetail from "@/hooks/useDeliveryDetail"
+import { FormProvider } from "react-hook-form"
 import { useNavigate } from "react-router-dom"
 import CartItem from "@/components/CartItem"
 import DeliveryDetail from "@/components/DeliveryDetail"
@@ -8,6 +10,7 @@ import OrderSummary from "@/components/OrderSummary"
 const Cart = () => {
   const navigate = useNavigate()
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart } = useCart()
+  const deliveryForm = useDeliveryDetail()
 
   if (cart.length === 0) {
     return (
@@ -38,19 +41,21 @@ const Cart = () => {
         Your Cart
       </h1>
       <p className="mb-8 text-gray-500">{cart.length} items ready to order</p>
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <div className="space-y-4 lg:col-span-2">
-          {cart.map((item) => (
-            <CartItem key={item.id} item={item} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} removeFromCart={removeFromCart}/>
-          ))}
-          <div className="mt-6 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
-            <DeliveryDetail />
+      <FormProvider {...deliveryForm}>
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div className="space-y-4 lg:col-span-2">
+            {cart.map((item) => (
+              <CartItem key={item.id} item={item} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} removeFromCart={removeFromCart}/>
+            ))}
+            <div className="mt-6 rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">
+              <DeliveryDetail />
+            </div>
+          </div>
+          <div className="lg:col-span-1">
+            <OrderSummary cart={cart} />
           </div>
         </div>
-        <div className="lg:col-span-1">
-          <OrderSummary cart={cart} />
-        </div>
-      </div>
+      </FormProvider>
     </div>
   )
 }

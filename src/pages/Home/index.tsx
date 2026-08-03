@@ -29,8 +29,9 @@ const Home = () => {
     },
   ]
   const popularItem = menuData.categories
-    .flatMap((popular) => popular.items)
-    .filter((popular) => popular.isPopular)
+    .flatMap((category) => category.items)
+    .filter((item) => item.isPopular)
+    .sort((a, b) => b.rating - a.rating)
 
   const navigate = useNavigate()
 
@@ -81,7 +82,7 @@ const Home = () => {
             </button>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {popularItem.map((item) => (
+            {popularItem.slice(0, 6).map((item) => (
               <MenuCardUI key={item.id} item={item} />
             ))}
           </div>

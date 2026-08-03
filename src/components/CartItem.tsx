@@ -1,3 +1,4 @@
+import VegBadge from "@/components/VegBadge"
 import type { CartItem as CartItemType } from "@/hooks/useCart"
 import { useState } from "react"
 import { IoClose } from "react-icons/io5"
@@ -30,14 +31,7 @@ const CartItem = ({
           {item.name}
         </h3>
         <div className="mt-1 flex items-center gap-2">
-          <span
-            className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${item.isVeg ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"}`}
-          >
-            <span
-              className={`h-2 w-2 rounded-full ${item.isVeg ? "bg-green-700" : "bg-red-500"}`}
-            ></span>
-            {item.isVeg ? "Veg" : "Non-Veg"}
-          </span>
+          <VegBadge isVeg={item.isVeg} />
         </div>
         <div className="mt-1 text-base font-bold text-[#FF7A00]">
           {item.price}

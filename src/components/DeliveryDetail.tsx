@@ -1,63 +1,121 @@
+import { useFormContext } from "react-hook-form"
+
+import {
+  Field,
+  FieldError,
+  FieldGroup,
+  FieldLabel,
+} from "@/components/ui/field"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import AddressPicker from "@/components/AddressPicker"
+import { type DeliveryDetailValues } from "@/hooks/useDeliveryDetail"
+import { fieldClass } from "@/lib/formClasses"
+
 const DeliveryDetail = () => {
+  const {
+    register,
+    formState: { errors },
+  } = useFormContext<DeliveryDetailValues>()
+
   return (
     <div>
       <h2 className="mb-5 text-lg font-black text-gray-900">
         Delivery Details
       </h2>
-      <div className="space-y-4">
-        <div>
-          <label
-            htmlFor=""
-            className="mb-1.5 block text-sm font-semibold text-gray-700"
+
+      <FieldGroup className="gap-4">
+        <Field data-invalid={!!errors.fullName}>
+          <FieldLabel
+            htmlFor="fullName"
+            className="text-sm font-semibold text-gray-700"
           >
             Full Name *
-          </label>
-          <input
-            type="text"
+          </FieldLabel>
+
+          <Input
+            id="fullName"
             placeholder="e.g. Sarina Shrestha"
-            className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm font-medium placeholder-gray-400 transition-all focus:ring-2 focus:ring-[#FF7A00] focus:outline-none"
+            aria-invalid={!!errors.fullName}
+            className={fieldClass}
+            {...register("fullName", {
+              required: "Full name is required",
+              minLength: {
+                value: 3,
+                message: "Full name must be at least 3 characters",
+              },
+            })}
           />
-        </div>
-        <div>
-          <label
-            htmlFor=""
-            className="mb-1.5 block text-sm font-semibold text-gray-700"
+
+          <FieldError errors={[errors.fullName]} />
+        </Field>
+
+        <Field data-invalid={!!errors.phone}>
+          <FieldLabel
+            htmlFor="phone"
+            className="text-sm font-semibold text-gray-700"
           >
             Phone Number *
-          </label>
-          <input
-            type="number"
+          </FieldLabel>
+
+          <Input
+            id="phone"
+            type="tel"
+            inputMode="numeric"
             placeholder="e.g. 9867517425"
-            className="w-full rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm font-medium placeholder-gray-400 transition-all focus:ring-2 focus:ring-[#FF7A00] focus:outline-none"
+            aria-invalid={!!errors.phone}
+            className={fieldClass}
+            {...register("phone", {
+              required: "Phone number is required",
+              pattern: {
+                value: /^9\d{9}$/,
+                message: "Enter a valid 10-digit mobile number",
+              },
+            })}
           />
-        </div>
-        <div>
-          <label
-            htmlFor=""
-            className="mb-1.5 block text-sm font-semibold text-gray-700"
+
+          <FieldError errors={[errors.phone]} />
+        </Field>
+
+        <AddressPicker />
+
+        <Field data-invalid={!!errors.landmark}>
+          <FieldLabel
+            htmlFor="landmark"
+            className="text-sm font-semibold text-gray-700"
           >
-            Delivery Address *
-          </label>
-          <textarea
-            placeholder="e.g. 123 Thamel, Kathmandu"
-            className="w-full resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm font-medium placeholder-gray-400 transition-all focus:ring-2 focus:ring-[#FF7A00] focus:outline-none"
+            Landmark *
+          </FieldLabel>
+
+          <Input
+            id="landmark"
+            placeholder="e.g. Next to Himalayan Java, blue gate"
+            aria-invalid={!!errors.landmark}
+            className={fieldClass}
+            {...register("landmark", {
+              required: "A landmark helps the rider find you",
+            })}
           />
-        </div>
-        <div>
-          <label
-            htmlFor=""
-            className="mb-1.5 block text-sm font-semibold text-gray-700"
+
+          <FieldError errors={[errors.landmark]} />
+        </Field>
+
+        <Field>
+          <FieldLabel
+            htmlFor="notes"
+            className="text-sm font-semibold text-gray-700"
           >
-            Order Notes *
-          </label>
-          <textarea
-            name=""
-            id=""
+            Order Notes
+          </FieldLabel>
+
+          <Textarea
+            id="notes"
             placeholder="Any special requests?"
-            className="w-full resize-none rounded-xl border border-gray-200 bg-gray-50 px-4 py-3 text-sm font-medium placeholder-gray-400 transition-all focus:ring-2 focus:ring-[#FF7A00] focus:outline-none"
+            className={`${fieldClass} resize-none`}
+            {...register("notes")}
           />
-        </div>
-      </div>
+        </Field>
+      </FieldGroup>
     </div>
   )
 }

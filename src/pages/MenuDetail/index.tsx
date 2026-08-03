@@ -1,4 +1,7 @@
 import MenuCardUI from "@/components/MenuCard"
+import QuantityStepper from "@/components/QuantityStepper"
+import VegBadge from "@/components/VegBadge"
+import { Button } from "@/components/ui/button"
 import menuData from "@/data/menu.json"
 import useCart from "@/hooks/useCart"
 import { ROUTES } from "@/routes/routes"
@@ -47,23 +50,7 @@ const MenuDetail = () => {
             className="h-full w-full object-cover"
           />
 
-          <div className="absolute top-4 left-4">
-            <span
-              className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold ${
-                item?.isVeg
-                  ? "bg-green-100 text-green-700"
-                  : "bg-red-100 text-red-700"
-              }`}
-            >
-              <span
-                className={`h-2 w-2 rounded-full ${
-                  item?.isVeg ? "bg-green-700" : "bg-red-500"
-                }`}
-              />
-
-              {item?.isVeg ? "Veg" : "Non-Veg"}
-            </span>
-          </div>
+          <VegBadge isVeg={!!item?.isVeg} className="absolute top-4 left-4" />
         </div>
 
         <div>
@@ -116,7 +103,6 @@ const MenuDetail = () => {
             ))}
           </div>
 
-       
           <div className="mb-6">
             <h3 className="mb-3 text-sm font-bold text-gray-900">
               Key Ingredients
@@ -146,25 +132,19 @@ const MenuDetail = () => {
             </div>
 
             {cartItem ? (
-              <div className="flex h-14 flex-1 items-center overflow-hidden rounded-2xl border-2 border-[#FF7A00]">
-                <button
-                  onClick={() => decreaseQuantity(item!.id)}
-                  className="flex h-full w-14 items-center justify-center bg-white text-xl font-bold text-[#FF7A00] transition-colors hover:bg-orange-50 cursor-pointer"
-                >
-                  −
-                </button>
-
-                <span className="flex h-full flex-1 items-center justify-center bg-[#FF7A00] text-lg font-bold text-white">
-                  {cartItem.quantity}
-                </span>
-
-                <button
-                  onClick={() => increaseQuantity(item!.id)}
-                  className="flex h-full w-14 items-center justify-center bg-white text-xl font-bold text-[#FF7A00] transition-colors hover:bg-orange-50 cursor-pointer"
-                >
-                  +
-                </button>
-              </div>
+              <>
+                <QuantityStepper
+                  size="lg"
+                  quantity={cartItem.quantity}
+                  itemName={item!.name}
+                  onIncrease={() => increaseQuantity(item!.id)}
+                  onDecrease={() => decreaseQuantity(item!.id)}
+                />
+                <Button className="hidden h-14 w-40 md:block">
+                  {" "}
+                  View Cart
+                </Button>
+              </>
             ) : (
               <button
                 className="flex-1 cursor-pointer rounded-2xl bg-[#FF7A00] py-4 text-base font-black text-white shadow-lg shadow-orange-200 transition-all hover:scale-105 hover:bg-[#E06600]"
