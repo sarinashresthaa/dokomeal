@@ -20,4 +20,4 @@ jobs:
 
       - name: Deploy static files
         run: |
-          rsync -av --delete build/ /home/deploy/dokomandu/www/dokomeal/
+          rsync -av --delete dist/ /home/deploy/dokomandu/www/dokomeal/
