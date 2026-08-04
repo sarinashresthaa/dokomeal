@@ -171,7 +171,7 @@
           "id": 109,
           "name": "Buff Jhol Momo",
           "price": 225,
-          "image": "https://foodenginepokhara.com/wp-content/uploads/2025/05/i796a5ob8vk91-scaled.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu0KzrI2kkuCy2k5bVZAUFZ13s_zDP-CC3ygjwEpWMet6_XUbEzmI59x4&s=10",
           "description": "Buff momo served in authentic Nepali sesame-based jhol.",
           "isVeg": false,
           "isPopular": true,
@@ -320,7 +320,7 @@
           "id": 201,
           "name": "Veg Chowmein",
           "price": 190,
-          "image": "https://jackslobodian.com/wp-content/uploads/2021/03/Vegetable-Vegan-Chow-Mein-2.jpg",
+          "image": "https://images.openai.com/static-rsc-4/Y2vepPEeFY91Jpk0oxrjnJFjNrNEeJEWCoa4VSPc3wgFnNCsMq12og3MkkFKIoVohCfky2UDTep2iFiVrr6rkNC42lYn6pwpLxCFAi939nNysYaPB_QZ2divwsrv-QBP1s9oaUbBSAdmf0hNmVEsAlv6Q8e63o9jj8LjZv9Mzp9WnMz3jbI-vz2Nxu4q77lf?purpose=inline",
           "description": "Classic stir-fried noodles tossed with fresh vegetables, soy sauce, and aromatic seasonings.",
           "isVeg": true,
           "isPopular": false,
@@ -340,7 +340,7 @@
           "id": 202,
           "name": "Egg Chowmein",
           "price": 210,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROzwI-u0Z0x7ETzRTuK9cCRZG4o4KXx1jevZKuOo1WyQ&s=10",
+          "image": "https://images.openai.com/static-rsc-4/B7g_lagDJ7s6rYMSakMZqvJUBlj1NN7BP-AFMZi9xyfq7Sgge_LA9P0NUYXEGX-wcROGMTOuHlW12JPhCeR5TP5bhAyDvBxshsDJUeZZN3opL3sTG8NHueVnU8-ixxHBwwTxwvLXF-tXCcD8SZU7k-iu9xBPV8dwzM2TpRdWMio?purpose=inline",
           "description": "Stir-fried noodles mixed with scrambled egg, fresh vegetables, and savory sauces.",
           "isVeg": false,
           "isPopular": false,
@@ -360,7 +360,7 @@
           "id": 203,
           "name": "Chicken Chowmein",
           "price": 250,
-          "image": "https://recipe30.com/wp-content/uploads/2021/09/Chicken-Chow-Mein-1.jpg",
+          "image": "https://images.openai.com/static-rsc-4/6bBXkkUmV6uuQwDawYtQ1vTIqaCmsXb_dVFNEPL-Xn9BYsxHAFytKKS20uH8t_2Kb9LswtHoDfdgy8sp5m3va4EaVj4_HXUUYLqw75rj51DKvubNWI4HnLPkG5C0QyK1zJjpCiOF92ej-m66ig3a75wpwE9yFUb2YU0hUbTdWoE?purpose=inline",
           "description": "Wok-tossed noodles with tender chicken, fresh vegetables, and flavorful house seasoning.",
           "isVeg": false,
           "isPopular": true,
@@ -378,6 +378,26 @@
         },
         {
           "id": 204,
+          "name": "Buff Chowmien",
+          "price": 230,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShOCJ2Rt2UtwWGi5TyejvpgReicjHt6MNGJCULjjTxuO_8jSnutoNmVVI&s=10",
+          "description": "Flavorful chowmien tossed with tender buff, fresh vegetables, and savory house seasoning.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Noodles",
+            "Buff",
+            "Onion",
+            "Capsicum",
+            "Cabbage",
+            "House Seasoning"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 205,
           "name": "Mixed Chowmein",
           "price": 290,
           "image": "https://www.mingleseasoning.com/cdn/shop/articles/20240715232403-1_5ffd1787-e1d6-4eaf-ac82-b5b864520ca8.jpg?v=1745250877",
@@ -409,7 +429,7 @@
           "id": 301,
           "name": "Veg Fried Rice",
           "price": 180,
-          "image": "https://www.kannammacooks.com/wp-content/uploads/schezwan-veg-fried-rice-1.jpg",
+          "image": "https://images.openai.com/static-rsc-4/Go2HNko5GkQAYAMLq0OZ2IRBsM5sluXOWYAvuvuzhNOP0TiL1Jx1IPwYf2R-VpUhfHP-cHwkGKS5riYq62dguzqcBuvbtfIp18vyQlKFfSg9NmRqRP1Wj0gHaJrMmH_Z1paZAD2ItRmEci-MjyC-wkzrgA8kadMPVSMZDF1ZXco?purpose=inline",
           "description": "Aromatic fried rice stir-fried with fresh vegetables and house seasoning.",
           "isVeg": true,
           "isPopular": false,
@@ -429,7 +449,7 @@
           "id": 302,
           "name": "Egg Fried Rice",
           "price": 220,
-          "image": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg",
+          "image": "https://images.openai.com/static-rsc-4/LrmIZs7ZStgujrYD1BMg59nvK7fNBOyOSPtChF0F07GTCzWcPnU8suLAKl1RfiIuhw6SIXBh0_LGQXq_92diTQyxuJEN43kQ0yAuRprNJ7E1sBkE7f5q2YQWEA4ODdSGFMZDhZW0qB-9g4DvW8gk9LPHXedudHHpzdjL69O1d1M?purpose=inline",
           "description": "Classic fried rice tossed with scrambled egg, vegetables, and savory sauces.",
           "isVeg": false,
           "isPopular": false,
@@ -449,7 +469,7 @@
           "id": 303,
           "name": "Chicken Fried Rice",
           "price": 230,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSznOLjwwqgcvakljrNmq2guWDsP2yJrWsic0KptCxhrQXMO4TwNmkfbQc&s=10",
+          "image": "https://images.openai.com/static-rsc-4/N8g-eLmUhv63jXu75-jRzvORRnxVlkkPiomZc4mlYlWL7abvRlgbp3y7x6CNA7_slfpqA_Ju9yT9VNUzLwAI3pZ1fDEx0KKisVmlV94KmZlRuQTEUw9HLJsv9pR2YCDdG9iEJdWhwxYq9hS8KtZiCLVMpcPqLChjcFUj7-HXxsM?purpose=inline",
           "description": "Flavorful fried rice cooked with tender chicken pieces, vegetables, and signature seasoning.",
           "isVeg": false,
           "isPopular": true,
@@ -467,6 +487,26 @@
         },
         {
           "id": 304,
+          "name": "Buff Fried Rice",
+          "price": 210,
+          "image": "https://jslight.com.np/wp-content/uploads/2022/06/1599122338-chicken-fried-rice-sq.jpg",
+          "description": "Flavorful fried rice cooked with tender buff, fresh vegetables, and savory house seasoning.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Rice",
+            "Buff",
+            "Onion",
+            "Capsicum",
+            "Carrot",
+            "House Seasoning"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 305,
           "name": "Mixed Fried Rice",
           "price": 280,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReULxyEKCJIPfXbaNqDtJWb4STIcQoSWsI81Mm1oCWCEDow3M6SjLpQxZ2&s=10",
@@ -498,7 +538,7 @@
           "id": 401,
           "name": "Veg Burger with Fries",
           "price": 180,
-          "image": "https://images.slurrp.com/prod/recipe_images/transcribe/snack/Vegetable-Burger.webp",
+          "image": "https://images.openai.com/static-rsc-4/zOJ-JAQklhDfnVGy3JZKdf_5VlXTuUQJCQmZ6MqSle2tES3OQGaZt2xf9_D9Yx2lUf197bDiAXxHSdjct94eD7BfTfwKT1pr_6f1Yv-cfdDgeuAeWS6ChaJwRh0NAZrNyZoinwNoUcXkL0TUJmNVatVLqBYppde8JkqdpCm4K2E?purpose=inline",
           "description": "Crispy vegetable patty layered with fresh lettuce, tomato, cheese, and signature sauce. Served with golden French fries.",
           "isVeg": true,
           "isPopular": false,
@@ -679,13 +719,13 @@
       "name": "Chilli Items",
       "slug": "chilli-items",
       "icon": "🌶️",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjycKQNadB-ShHda2XaHwkedsBoMA7teE6VOkOowj8Q0ANmWUQm6bxSYYU_Q2Yzv6IXcfDpOcNgoxBZ8P696bURZeRGIadJpPsVU1hCkzkERpcky5cSFmmCjC6a97WJofO2yCzJrrT38w/s1600/thumb_ANB_9631_1024.jpg",
       "items": [
         {
           "id": 701,
           "name": "Chicken Sausage Chilli (3 pcs)",
           "price": 250,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWecKU5pBR6G_Fw6Ybzy1EFCHXyaJs-6oCheKS6IO1R21lwyx5tY8jYK4&s=10",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjycKQNadB-ShHda2XaHwkedsBoMA7teE6VOkOowj8Q0ANmWUQm6bxSYYU_Q2Yzv6IXcfDpOcNgoxBZ8P696bURZeRGIadJpPsVU1hCkzkERpcky5cSFmmCjC6a97WJofO2yCzJrrT38w/s1600/thumb_ANB_9631_1024.jpg",
           "description": "Chicken sausages stir-fried with onions, capsicum, and spicy chilli garlic sauce.",
           "isVeg": false,
           "isPopular": true,
@@ -723,6 +763,19 @@
         },
         {
           "id": 703,
+          "name": "Buff Chilli (250 gm)",
+          "price": 290,
+          "image": "https://i.ytimg.com/vi/vPMmgQL6YiE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGduvXvs9wDIFyk1COeNFNtGQTog",
+          "description": "Tender buff cooked with onions, peppers and flavorful chilli sauce.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "20-25 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": ["Buff", "Onion", "Capsicum", "Chilli", "Spices"],
+          "rating": 4.5
+        },
+        {
+          "id": 704,
           "name": "Tofu Chilli",
           "price": 250,
           "image": "https://bestofvegancom.b-cdn.net/wp-content/uploads/2021/11/Indian-street-food-style-Chilli-Tofu-1.png",
@@ -742,7 +795,7 @@
           "rating": 4.6
         },
         {
-          "id": 704,
+          "id": 705,
           "name": "Paneer Chilli",
           "price": 285,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNWfNPoe8vl_lGA4TriUgTWvHtnOTNtfzxZ4BWNVt5dGOfXuXC-VSAxuA&s=10",
@@ -762,7 +815,7 @@
           "rating": 4.8
         },
         {
-          "id": 705,
+          "id": 706,
           "name": "Chips Chilli",
           "price": 250,
           "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/57/54/0f/chips-chilli-vegan-marinated.jpg",
@@ -782,7 +835,7 @@
           "rating": 4.5
         },
         {
-          "id": 706,
+          "id": 707,
           "name": "Chicken Chilli with Bone (250 gm)",
           "price": 270,
           "image": "https://www.wikihow.com/images/thumb/c/cb/Prepare-Chilli-Chicken-Step-17.jpg/aid6748552-v4-1200px-Prepare-Chilli-Chicken-Step-17.jpg",
@@ -802,7 +855,7 @@
           "rating": 4.8
         },
         {
-          "id": 707,
+          "id": 708,
           "name": "Chicken Chilli without Bone (250 gm)",
           "price": 350,
           "image": "https://www.licious.in/blog/wp-content/uploads/2022/08/Shutterstock_1237679371-750x750.jpg",
@@ -834,7 +887,7 @@
           "id": 801,
           "name": "Chicken Choila (250 gm)",
           "price": 220,
-          "image": "https://enq69sdfnv7.exactdn.com/wp-content/uploads/2024/07/CHICKEN-CHOILA-RECIPE-2.jpg?strip=all",
+          "image": "https://images.openai.com/static-rsc-4/rQURubLcwa_32vwF5lXjl0ysznlN77_3KvU2cCYrXAK4chEa9Cd0hdOQ53yVF_a48DNUJAIR3MuSKQ0vTDcUfZTGvKxXHKzSP1Yv21-xf5Duu5nvhbjIlsp84nz3TNmcbn3YLhBgzOMtd4fpO5MKAC12BGf6fNb0HI_BhSRaDt8?purpose=inline",
           "description": "Authentic Nepali-style grilled chicken mixed with mustard oil, herbs, and aromatic spices.",
           "isVeg": false,
           "isPopular": true,
@@ -874,7 +927,7 @@
           "id": 803,
           "name": "Crunchy Chicken",
           "price": 370,
-          "image": "https://static.toiimg.com/thumb/61589069.cms?imgsize=788682&width=800&height=800",
+          "image": "https://images.openai.com/static-rsc-4/xB8hVBx0g4CAkMlNPOjmxVIXfPo6iLOZQLiEKfZO3Uy8dTrqzW6i9jZ2ZcOd59NSo2AX8zZwldMhvJ_Vlj8CgYZ1cZnmsarUqtxunnnmya2-mn8RnPbDgpsDoiDRHBqJc2aJJ7Fyxga7pk1lT2hepIKAu_Dq22vd-IeB6HOYJu8?purpose=inline",
           "description": "Extra crispy fried chicken coated with seasoned crunchy batter and served with signature dip.",
           "isVeg": false,
           "isPopular": true,
@@ -932,8 +985,28 @@
         },
         {
           "id": 806,
+          "name": "Timur Chicken (250 gm)",
+          "price": 300,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTiHAcTZwHHL-n3_iXgGOB2BoKkxhEixEZfyI1be2fHgGqt1keQrhWFJcx&s=10",
+          "description": "Tender chicken cooked with aromatic timur pepper and flavorful Nepali spices.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Timur",
+            "Onion",
+            "Tomato",
+            "Green Chilli",
+            "Nepali Spices"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 807,
           "name": "Chicken Loaded Fries",
-          "price": 250,
+          "price": 280,
           "image": "https://136063008.cdn6.editmysite.com/uploads/1/3/6/0/136063008/7NCQ5DR2WN4Q2XYL44APKGI2.jpeg",
           "description": "Crispy golden fries topped with juicy chicken, melted cheese, creamy sauces, and fresh spring onions.",
           "isVeg": false,
@@ -951,7 +1024,7 @@
           "rating": 4.9
         },
         {
-          "id": 807,
+          "id": 808,
           "name": "Chicken Roast with Bone (250 gm)",
           "price": 260,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbP0P6VxmVNFdZQSpkBBAsf9tLKwLV-FWsaoEL6ivnluMM7nSDd2Mt0r3x&s=10",
@@ -970,7 +1043,7 @@
           "rating": 4.7
         },
         {
-          "id": 808,
+          "id": 809,
           "name": "Chicken Roast without Bone (250 gm)",
           "price": 330,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxcZmRuxjeoFLFShiCVkhaxd5l1xF7RO_6eD1FGhMRNdaWxbqEh2JECgU&s=10",
@@ -1021,7 +1094,7 @@
           "id": 902,
           "name": "Chicken Drumstick (3 pcs)",
           "price": 210,
-          "image": "https://hungryhobby.net/wp-content/uploads/2017/07/oven-baked-drumsticks-square-500x500.png",
+          "image": "https://recipe30.com/wp-content/uploads/2022/04/Chicken-drumsticks.jpg",
           "description": "Juicy fried drumsticks seasoned with herbs and spices. Served with dipping sauce.",
           "isVeg": false,
           "isPopular": true,
@@ -1144,13 +1217,26 @@
       "name": "Snacks & Veggie",
       "slug": "snacks-veggie",
       "icon": "🍟",
-      "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+      "image": "https://images.openai.com/static-rsc-4/MY1naaNX1nfCj40XBW_cNN1eZ0Oi0Tpy2at1yfclKoblR7UpwuGJMdYVESBBgn9kl5hGHY7ktLD3iqEh6cIdir3I4yfxskUQjFoKOFR98jFjwVMiozvebIaZ3vDGE1C_-bW49wJRy4J9gd3w6ytZJZ7scvW2cDCeaZFsx5jX2zHfPV7ly25jsuK_A31XCQdZ?purpose=inline",
       "items": [
         {
           "id": 1001,
+          "name": "Plain Omelette 2 pcs",
+          "price": 130,
+          "image": "https://images.openai.com/static-rsc-4/PxrdUq93dHyr4Nbo-J_G7sgNOefSCp4uCS1dsCLkyqo5jI9wpYK216OZZB84RRJKnABj2Z17IOET-deeqQwacUVKMRD_37emIvbPghXTvghN1OP1og-S0NCbO3uOInBkamwziL6Yc2DuKNusT-l_CiwLLdlM5giHtTuQV0irDiQJ5Lhoyh8F-1nXlOf05QFT?purpose=inline",
+          "description": "Simple and delicious plain omelette made with fresh eggs.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "8 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": ["Egg", "Salt", "Black Pepper", "Cooking Oil"],
+          "rating": 4.5
+        },
+        {
+          "id": 1002,
           "name": "French Fries",
           "price": 160,
-          "image": "https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",
+          "image": "https://images.openai.com/static-rsc-4/MY1naaNX1nfCj40XBW_cNN1eZ0Oi0Tpy2at1yfclKoblR7UpwuGJMdYVESBBgn9kl5hGHY7ktLD3iqEh6cIdir3I4yfxskUQjFoKOFR98jFjwVMiozvebIaZ3vDGE1C_-bW49wJRy4J9gd3w6ytZJZ7scvW2cDCeaZFsx5jX2zHfPV7ly25jsuK_A31XCQdZ?purpose=inline",
           "description": "Golden crispy French fries seasoned with salt and served with tomato ketchup.",
           "isVeg": true,
           "isPopular": true,
@@ -1160,10 +1246,10 @@
           "rating": 4.8
         },
         {
-          "id": 1002,
+          "id": 1003,
           "name": "Cheese Loaded Fries",
-          "price": 200,
-          "image": "https://joyfoodsunshine.com/wp-content/uploads/2021/08/cheese-sauce-recipe-for-fries-2.jpg",
+          "price": 220,
+          "image": "https://images.openai.com/static-rsc-4/8SVq6H_X-iaL41odKHrB07PTkWELJiA6diMbRhbbZb2DwpnYTVzLkxHbAY_3d3EXwsvjXPjzQbuwBGqwa-FBmvQ9iOIwiuHRDEUAZJW5Zkdf3jWM7v6PZKRGl0VjHr9YUzJJ1EN-pQV6J5YoR8rN7n0BG3uUUYh0AYtElPZaTwk?purpose=inline",
           "description": "Golden crispy French fries generously topped with melted cheese and finished with signature sauces.",
           "isVeg": true,
           "isPopular": true,
@@ -1180,7 +1266,7 @@
           "rating": 4.9
         },
         {
-          "id": 1003,
+          "id": 1004,
           "name": "Mustang Aalu",
           "price": 220,
           "image": "https://jslight.com.np/wp-content/uploads/2022/06/786531615118034.jpg",
@@ -1200,7 +1286,7 @@
           "rating": 4.8
         },
         {
-          "id": 1004,
+          "id": 1005,
           "name": "Pyaji Pakoda",
           "price": 250,
           "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/onion-pakoda-pakora-500x375.jpg",
@@ -1220,7 +1306,7 @@
           "rating": 4.6
         },
         {
-          "id": 1005,
+          "id": 1006,
           "name": "Aalu Chop",
           "price": 250,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP-ym9LnDai9p5wJBg4UdZhNWWz66SPAWJldz8YPRU4g&s=10",
@@ -1240,10 +1326,10 @@
           "rating": 4.6
         },
         {
-          "id": 1006,
+          "id": 1007,
           "name": "Crispy Potatoes",
           "price": 220,
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYyZvNj05Fv0erC2qsExX6ef0kh1Oo46HJP9ynTuhJbYSPnmsvXPXYdCS&s=10",
+          "image": "https://images.openai.com/static-rsc-4/lC0vGl2oiwtkKOvj69BjPTHGsf43EVgjM8CUDxduvXOjG7JnwyIXPKeg5hbA71RoBlZ08Kl57wp5R7ygBYJgHUOXQdvfTqBZgRXLlV9GG7YUmrCZSvoRJRYAPiGjcfQ4YKdXZqHobRysH2Ak4Ph0VEFgDJ4AUDxuFbnlJjvcSSc?purpose=inline",
           "description": "Perfectly crispy potato cubes tossed with herbs, garlic, and house seasoning.",
           "isVeg": true,
           "isPopular": true,
@@ -1258,21 +1344,86 @@
             "House Seasoning"
           ],
           "rating": 4.7
+        },
+        {
+          "id": 1008,
+          "name": "Peanut Sadeko",
+          "price": 200,
+          "image": "https://premsekuwa.com/storage/app/public/admin-assets/images/item/item-684e716441c4e.jpg",
+          "description": "Spicy and tangy peanut salad seasoned with traditional Nepali spices.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "10-15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Peanuts",
+            "Onion",
+            "Tomato",
+            "Coriander",
+            "Spices"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1009,
+          "name": "Bhatmas Sadeko",
+          "price": 150,
+          "image": "https://premsekuwa.com/storage/app/public/admin-assets/images/item/item-684e73ec9ed49.jpg",
+          "description": "Crunchy roasted soybean salad tossed with fresh vegetables and Nepali spices.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "10-15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Bhatmas",
+            "Onion",
+            "Tomato",
+            "Coriander",
+            "Spices"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1010,
+          "name": "Potato Stick Plain",
+          "price": 120,
+          "image": "https://images.openai.com/static-rsc-4/hRCwhO_jIfQ-H9625X_nxOEGv8U2I4e8GVV-YALpNIAJKjVA_4JZ9dWw_2wYSsvBurex0OoOnLnA72tvjVqyI5iAuZsdkgPZs5MzsxpoK3x9kgfOcg3GaXsR7fwkyc1_uCLhgHEyNvPQLaWFGjl5MFwZxaxx0P7yqVUYcCBuLtXyIZUVrulDob0UTEyREgRY?purpose=inline",
+          "description": "Crispy golden potato sticks served plain.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "15-20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": ["Potato", "Oil", "Salt"],
+          "rating": 4.5
+        },
+        {
+          "id": 1011,
+          "name": "Potato Stick with Masala",
+          "price": 160,
+          "image": "https://images.openai.com/static-rsc-4/11RPoy_kLwZEIY2D6QOcFJcyZG2ns9BwDUip4CFtTOzuNz0cQ4tqmmWNAf4Zn7Ffqj8Frjunz4_MGbBdB06uDMjsh0HIjN8PQtfWLOsOn8qOFRUAi8T70vaHkejEd3jnsZG3jm754MuRKGy3MASHDyixGVxK3eEt6Si8B-jN66I?purpose=inline",
+          "description": "Crispy potato sticks tossed with flavorful spices and masala.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "15-20 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": ["Potato", "Masala", "Spices", "Oil"],
+          "rating": 4.5
         }
       ]
     },
+
     {
       "id": 11,
       "name": "Spring Rolls",
       "slug": "spring-rolls",
       "icon": "🌯",
-      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/spring-rolls-recipe.jpg",
+      "image": "https://images.openai.com/static-rsc-4/zKsrgd60zw_y7zLLIwYH0HpVxkVVSZg0JxrI66rM9ReCpk_tfNoCOO2KDmkYRdAYXFDkHQMBz1aeA2WXvwYoU5DDhBqKyccEomcsNJDAqvkvMBH6aA0KE90FAGaj09T9AFCB1Sxjgikw3BJG10JkAIsyvatPFowLCkAPEL9OrPA?purpose=inline",
       "items": [
         {
           "id": 1101,
           "name": "Chicken Spring Roll",
           "price": 250,
-          "image": "https://img-cdn.publive.online/fit-in/1200x675/sanjeev-kapoor/media/media_files/dwWZUDmNXyRf8Or1ejm0.JPG",
+          "image": "https://images.openai.com/static-rsc-4/zKsrgd60zw_y7zLLIwYH0HpVxkVVSZg0JxrI66rM9ReCpk_tfNoCOO2KDmkYRdAYXFDkHQMBz1aeA2WXvwYoU5DDhBqKyccEomcsNJDAqvkvMBH6aA0KE90FAGaj09T9AFCB1Sxjgikw3BJG10JkAIsyvatPFowLCkAPEL9OrPA?purpose=inline",
           "description": "Crispy golden spring rolls stuffed with seasoned chicken and fresh vegetables. Served with sweet chilli sauce.",
           "isVeg": false,
           "isPopular": true,
@@ -1321,7 +1472,7 @@
           "id": 1201,
           "name": "Current Noodles with Cheese & Chicken",
           "price": 220,
-          "image": "https://i0.wp.com/mariasmenu.com/wp-content/uploads/Chicken-Noodles.png?fit=750%2C984&ssl=1",
+          "image": "https://images.openai.com/static-rsc-4/MoJTumz2gdl71bPCtArR7kZ_Jdue-waEY3FNdglHRy7nx9IyUviG2KxvRL7i20nzs_tb5FLrJPeaYYuhSC83JqrutK3nRSsKL9zj6e42GXQ7msdnZV0QAqXjGCQXoibxPSknloRYIDXTNyrmjKlqpEjrz3yZL3r0PJJYglW8-4E?purpose=inline",
           "description": "Spicy Current noodles cooked with tender chicken, melted cheese, and flavorful seasonings for a rich and satisfying meal.",
           "isVeg": false,
           "isPopular": true,
@@ -1361,7 +1512,7 @@
           "id": 1203,
           "name": "Current Noodles with Boiled Egg",
           "price": 210,
-          "image": "https://yashodafoods.com.np/wp-content/uploads/2024/03/boiled-egg.jpg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgCI7q8as-XUBr4SDxtqvrM9Bt2WN1qOVi4QAvPqtCg&s=10",
           "description": "Hot and flavorful Current noodles topped with a perfectly boiled egg and fresh herbs.",
           "isVeg": false,
           "isPopular": true,
@@ -1376,6 +1527,202 @@
             "Chilli Flakes"
           ],
           "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Pasta",
+      "slug": "pasta",
+      "icon": "🍝",
+      "image": "https://images.openai.com/static-rsc-4/vl3yoP-ECVXg8323ee2QuOx3hJEuNuOxwj6FcRCTeyJnYwU95kqler2aFQ6BGX3bxH4JYdqfBTMepswgwV75Y8ln6q47GjMSUgxdPeuAypEnd-25n9Rh5aXWPjMPTC339BgxLHIycpY7VkCX_gLj6Lgv05DOT1EjvVnAPeONQTw?purpose=inline",
+      "items": [
+        {
+          "id": 1301,
+          "name": "Veg Fusilli Pasta with White Sauce",
+          "price": 260,
+          "image": "https://images.openai.com/static-rsc-4/vl3yoP-ECVXg8323ee2QuOx3hJEuNuOxwj6FcRCTeyJnYwU95kqler2aFQ6BGX3bxH4JYdqfBTMepswgwV75Y8ln6q47GjMSUgxdPeuAypEnd-25n9Rh5aXWPjMPTC339BgxLHIycpY7VkCX_gLj6Lgv05DOT1EjvVnAPeONQTw?purpose=inline",
+          "description": "Fusilli pasta tossed in creamy white sauce with fresh vegetables for a rich and satisfying meal.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Fusilli Pasta",
+            "White Sauce",
+            "Mixed Vegetables",
+            "Cheese",
+            "House Seasoning"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1302,
+          "name": "Egg Fusilli Pasta with White Sauce",
+          "price": 300,
+          "image": "https://images.openai.com/static-rsc-4/0qOH61hxcC0n-IdYTQElM33YTCnuxETEDwpNsHL6VvR72DRtEdM6mTILUdQf24bjoIYfTM98StI8_EcMIyDH3Zu1KvqZk8vwIswn3GM3PZMQVKakOuuGqWlFsngIjFSsfFyP-SFQMaKfuDt5UjwtrAmfyeFC0oPIEauXd5kd4FQ?purpose=inline",
+          "description": "Fusilli pasta cooked with egg and creamy white sauce, finished with flavorful seasonings.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Fusilli Pasta",
+            "Egg",
+            "White Sauce",
+            "Cheese",
+            "House Seasoning"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1303,
+          "name": "Chicken Fusilli Pasta with White Sauce",
+          "price": 350,
+          "image": "https://images.openai.com/static-rsc-4/JZqI4r7NCaUMfNR61Gmf8vBC_sy3mDvMf6MRAaab2b_rGPp4orwdh6fpTt4JVMfGh1G0TtVcS7a4QmC1IkIJ0Cp9DASw_s2CtYHjtUGJutV0tyfJBs9sBcnTc5lPjbHU-wz62D1pD9wnwkjHttx49LCHgUC-8mYY2kYrwToRhNgYsXux6t2pzfjLp-nobOjq?purpose=inline",
+          "description": "Fusilli pasta cooked with tender chicken and creamy white sauce for a rich and delicious meal.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "20 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Fusilli Pasta",
+            "Chicken",
+            "White Sauce",
+            "Cheese",
+            "House Seasoning"
+          ],
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Wrap",
+      "slug": "wrap",
+      "icon": "🌯",
+      "image": "https://images.openai.com/static-rsc-4/F17W2TigyNnAG8MQapeTcug6rTrSgqldmDAPJbKVzKWDQSnOaWedgNW6GKsRhSksjAL6irOVcFMLBHd7r6xYkd7ak889WOi32hzUOuAwB26InSDUOBKtlyRlcRBukFOTypOboU3tfntHN-qrst0BxybajW4F-ddggMkZ0ajxb1c?purpose=inline",
+      "items": [
+        {
+          "id": 1401,
+          "name": "Chicken Wrap",
+          "price": 270,
+          "image": "https://images.openai.com/static-rsc-4/F17W2TigyNnAG8MQapeTcug6rTrSgqldmDAPJbKVzKWDQSnOaWedgNW6GKsRhSksjAL6irOVcFMLBHd7r6xYkd7ak889WOi32hzUOuAwB26InSDUOBKtlyRlcRBukFOTypOboU3tfntHN-qrst0BxybajW4F-ddggMkZ0ajxb1c?purpose=inline",
+          "description": "Soft wrap filled with tender chicken, fresh vegetables, and flavorful house seasoning.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "15 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Chicken",
+            "Wrap",
+            "Onion",
+            "Capsicum",
+            "Lettuce",
+            "House Sauce"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": 1402,
+          "name": "Egg Wrap",
+          "price": 250,
+          "image": "https://www.eatingbirdfood.com/wp-content/uploads/2020/12/breakfast-wrap-hero.jpg",
+          "description": "Soft wrap filled with seasoned egg, fresh vegetables, and creamy house sauce.",
+          "isVeg": false,
+          "isPopular": false,
+          "prepTime": "12 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Egg",
+            "Wrap",
+            "Onion",
+            "Capsicum",
+            "Lettuce",
+            "House Sauce"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1403,
+          "name": "Veg Wrap",
+          "price": 220,
+          "image": "https://images.openai.com/static-rsc-4/fDf-R0IWgO6N5XWWzpuzE6dNbjUto7AylGIeilhCACYCwiugoi2cFnb36elEEeJOiog5fL0vE_InJgky6Xb29w2D0934VR7-n2wK2I5L0mZB0TN5YjmynR_aLr6yyH71jKOfBR-WDu3H1t9wOvcJX9KmCUta5RLaSuXxq-PfyNE?purpose=inline",
+          "description": "Fresh vegetables wrapped in a soft tortilla with flavorful house sauce and seasoning.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "12 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Mixed Vegetables",
+            "Wrap",
+            "Onion",
+            "Capsicum",
+            "Lettuce",
+            "House Sauce"
+          ],
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Corn",
+      "slug": "corn",
+      "icon": "🌽",
+      "image": "https://images.openai.com/static-rsc-4/ZV_p16ySDLYz7uij3buWqJoJCx3Mo1tbLut2pg52hDIH-FeQBLTD6ObfprbtKChVFHX-ZR0MXSoD_rasO0mBJ-JdsmNF5QFgiK9l1E3N8KBKPCEtsR0q01uAphERc1fA5v208AjUipI-VUy3L7yv5XedolSKL9jq54x1PM44ws0?purpose=inline",
+      "items": [
+        {
+          "id": 1501,
+          "name": "Sweet Corn Boiled",
+          "price": 160,
+          "image": "https://www.courtneyssweets.com/wp-content/uploads/2025/11/buttered-corn-7.jpg",
+          "description": "Fresh sweet corn boiled to perfection and lightly seasoned.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "10 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": ["Sweet Corn", "Salt", "Butter"],
+          "rating": 4.5
+        },
+        {
+          "id": 1502,
+          "name": "Sweet Corn Fried",
+          "price": 195,
+          "image": "https://rakskitchen.net/wp-content/uploads/2022/01/crisp-corn.jpg",
+          "description": "Sweet corn stir-fried with flavorful seasonings for a delicious snack.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "12 min",
+          "spiceLevel": "Mild",
+          "keyIngredients": [
+            "Sweet Corn",
+            "Onion",
+            "Capsicum",
+            "Spices",
+            "Cooking Oil"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": 1503,
+          "name": "Sweet Corn Sadeko",
+          "price": 210,
+          "image": "https://images.openai.com/static-rsc-4/ZV_p16ySDLYz7uij3buWqJoJCx3Mo1tbLut2pg52hDIH-FeQBLTD6ObfprbtKChVFHX-ZR0MXSoD_rasO0mBJ-JdsmNF5QFgiK9l1E3N8KBKPCEtsR0q01uAphERc1fA5v208AjUipI-VUy3L7yv5XedolSKL9jq54x1PM44ws0?purpose=inline",
+          "description": "Sweet corn tossed with fresh vegetables, herbs, and flavorful Nepali spices.",
+          "isVeg": true,
+          "isPopular": false,
+          "prepTime": "10 min",
+          "spiceLevel": "Medium",
+          "keyIngredients": [
+            "Sweet Corn",
+            "Onion",
+            "Tomato",
+            "Coriander",
+            "Chilli",
+            "Spices"
+          ],
+          "rating": 4.6
         }
       ]
     }
